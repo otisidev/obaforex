@@ -20,23 +20,21 @@ export const MobileNav = () => {
           <ul className="mobile-nav__contact list-unstyled">
             <li>
               <i className="fa fa-envelope"></i>
-              <a href="mailto:needhelp@packageName__.com">
-                needhelp@aivons.com
-              </a>
+              <a href="mailto:helpdesk@obaforex.com">helpdesk@obaforex.com</a>
             </li>
             <li>
               <i className="fa fa-phone-alt"></i>
-              <a href="tel:666-888-0000">666 888 0000</a>
+              <a href="tel:666-888-0000">+2349043430808</a>
             </li>
           </ul>
-          <div className="mobile-nav__top">
+          {/* <div className="mobile-nav__top">
             <div className="mobile-nav__social">
               <a href="#" className="fab fa-twitter"></a>
               <a href="#" className="fab fa-facebook-square"></a>
               <a href="#" className="fab fa-pinterest-p"></a>
               <a href="#" className="fab fa-instagram"></a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
