@@ -1,0 +1,34 @@
+.icon-lg {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.clr-primary {
+  color: #1652f0;
+}
+
+.main-slider p {
+  padding: 8px 30px 8px 0;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.financial-advice__box .tab-btns .tab-btn {
+  max-width: 290px;
+}
+
+.financial-advice__img > img {
+  mix-blend-mode: normal;
+}
+
+@media screen and (max-width: 1199px) {
+  .financial-advice__box .tab-btns .tab-btn {
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .financial-advice__box .tab-btns .tab-btn {
+    max-width: 290px;
+  }
+}
