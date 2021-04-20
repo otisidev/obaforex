@@ -1,530 +1,386 @@
 import { Layout } from "../component/Layout";
 import { Slider } from "../component/Slider";
-import { Partners } from "../component/Partners";
-import { Team } from "../component/Team";
-import { JoinUs } from "../component/JoinUs";
+import chooseUs from "../data/chooseUs.json";
 
 const Home = () => {
   return (
     <>
       <Layout title="Home">
-        {/* Sliders */}
+        {/* Home Slider */}
         <Slider />
 
-        {/* Why choose Obaforex */}
-        <section className="real-world">
-          <div
-            className="real-world-shape wow slideInLeft"
-            data-wow-delay="100ms"
-            data-wow-duration="2500ms"
-            style={{
-              backgroundImage: "url(assets/images/shapes/real-world-shape.png)",
-            }}
-          ></div>
+        {/* Welcome to Obaforex */}
+        <div
+          className="section-block-bg"
+          style={{ backgroundImage: "url('img/content/business/bg5.jpg')" }}
+        >
           <div className="container">
-            <div className="section-title text-center">
-              <h2 className="section-title__title">Why Choose Obaforex</h2>
-              <span className="section-title__tagline">
-                We are the largest Forex trading / investment Company in
-                Nigeria!
-              </span>
+            {/* Title and Desc. */}
+            <div className="section-heading text-center">
+              <h3 className="semi-bold font-size-35">Welcome to Obaforex</h3>
+              <div className="section-heading-line line-thin"></div>
+              <p>
+                We are Obaforex.
+                <br />
+                The leading global Investment / Trading Company.
+              </p>
             </div>
-            <div className="row">
-              {/* Result Driven */}
-              <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="real-world__single">
-                  <div className="icon-lg clr-primary">
-                    <span className="icon-wealth"></span>
-                  </div>
-                  <h2 className="real-world__title">Result Driven</h2>
-                  <p>We are result oriented and we believe you are too.</p>
-                </div>
-              </div>
-              {/* Reliable */}
-              <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="real-world__single">
-                  <div className="icon-lg clr-primary">
-                    <span className="icon-data-analytics"></span>
-                  </div>
-                  <h2 className="real-world__title">Reliable</h2>
-                  <p>We are Obaforex for a reason - We keep our promises.</p>
-                </div>
-              </div>
-              {/* Responsive */}
-              <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="real-world__single">
-                  <div className="icon-lg clr-primary">
-                    <span className="icon-report"></span>
-                  </div>
-                  <h2 className="real-world__title">Responsive</h2>
-                  <p>
-                    We are constantly responding to your ever-changing needs.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Statement from the CEO. The King himself */}
-        <section className="welcome-one">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-6 col-lg-6">
-                <div className="welcome-one__left">
-                  <div className="welcome-one__img-box">
-                    <img src="assets/images/resources/ceo.png" alt="" />
-                    <div style={{ textAlign: "center" }}>
-                      <div
-                        style={{
-                          marginTop: "40px",
-                          display: "inline-bloack",
-                        }}
-                      >
-                        <img
-                          src="assets/images/signature.png"
-                          alt=""
-                          style={{
-                            display: "inline-block",
-                            marginTop: "-40px",
-                          }}
-                        />
-                        <div
-                          style={{
-                            display: "inline-block",
-                            marginLeft: "20px",
-                          }}
-                        >
-                          <h3>M.B. Samuel</h3>
-                          <p>Co-founder and CEO</p>
-                        </div>
-                      </div>
-                    </div>
-                    <a
-                      href="https://www.youtube.com/watch?v=osnUQfGzqzU"
-                      className="welcome-one__video-btn video-popup"
-                    >
-                      <div className="welcome-one__video-btn-icon">
-                        <i className="fa fa-play"></i>
-                        <span className="ripple"></span>
-                      </div>
+            <div className="row mt-30">
+              {/* Result Driven */}
+              <div className="col-md-4 col-sm-12 col-12">
+                <div className="service-block">
+                  <img src="img/content/services/value-img-1.png" alt="img" />
+                  <div className="service-block-content">
+                    <h4>Result-Driven</h4>
+                    <p>We are result oriented and we believe you are too</p>
+                    <a href="#" className="service-block-content-button">
+                      <i className="fas fa-arrow-right"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-6">
-                <div className="welcome-one__right">
-                  <h2 className="welcome-one__title">
-                    Obaforex is leading in the market
-                  </h2>
-                  <p className="welcome-one__text">
+
+              {/* Reliable */}
+              <div className="col-md-4 col-sm-12 col-12">
+                <div className="service-block">
+                  <img src="img/content/services/value-img-2.png" alt="img" />
+                  <div className="service-block-content">
+                    <h4>Reliable</h4>
+                    <p>We are Obaforex for a reason, we keep our promises</p>
+                    <a href="#" className="service-block-content-button">
+                      <i className="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Responsive */}
+              <div className="col-md-4 col-sm-12 col-12">
+                <div className="service-block">
+                  <img src="img/content/services/value-img-3.png" alt="img" />
+                  <div className="service-block-content">
+                    <h4>Responsive</h4>
+                    <p>We are responsive to your ever-changing needs</p>
+                    <a href="#" className="service-block-content-button">
+                      <i className="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Statement from the CEO, the king himself */}
+        <div className="section-block grey-bg background-shape-3">
+          <div className="container">
+            <div className="row">
+              {/* Statement */}
+              <div className="col-md-5 col-12">
+                <div className="section-heading">
+                  <small className="uppercase">Who we are</small>
+                  <h4 className="semi-bold">We're Obaforex</h4>
+                </div>
+                <div className="text-content mt-15 text-justify">
+                  <p>
                     We are a global foreign currency and investment company that
                     works with you to address your most critical business
                     priorities. To obtain higher performance, our team first
                     identifies the critical obstacles toward progress and then
                     develop a coherent approach to overcoming them. We help you
                     achieve your financial freedom and goals.
-                    <br />
-                    <br />
-                    <a
-                      href="/join"
-                      className="thm-btn our-mission__btn"
-                      style={{ border: "1px solid #3c72fc" }}
+                  </p>
+                </div>
+                <div className="row">
+                  <div className="col-sm-6 col-md-6">
+                    <ul className="primary-list mt-20">
+                      <li>
+                        <i className="fas fa-check-circle"></i>We help manage
+                        your forex account
+                      </li>
+                      <li>
+                        <i className="fas fa-check-circle"></i>We give you
+                        accurate signals
+                      </li>
+                      <li>
+                        <i className="fas fa-check-circle"></i>We train on Forex
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6 col-md-6">
+                    <ul className="primary-list mt-20">
+                      <li>
+                        <i className="fas fa-check-circle"></i>We provide
+                        partnership
+                      </li>
+                      <li>
+                        <i className="fas fa-check-circle"></i>We trade, you
+                        invest and earn
+                      </li>
+                      <li>
+                        <i className="fas fa-check-circle"></i>We support you
+                        all the way
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <a href="#" className="button-md button-primary mt-30">
+                  Read More
+                </a>
+              </div>
+
+              {/* CEO image */}
+              <div className="col-md-6 col-12 offset-md-1">
+                <img
+                  src="img/content/home-images/ceo.png"
+                  className="position-relative extra-rounded-border shadow-primary z-index-9 mt-30-xs"
+                  alt="img"
+                />
+                <div style={{ textAlign: "center" }}>
+                  <div
+                    style={{
+                      marginTop: "40px",
+                      display: "inline-bloack",
+                    }}
+                  >
+                    <img
+                      src="img/signature.png"
+                      alt=""
+                      style={{
+                        display: "inline-block",
+                        marginTop: "-40px",
+                      }}
+                    />
+                    <div
+                      style={{
+                        display: "inline-block",
+                        marginLeft: "20px",
+                      }}
                     >
-                      Join Us
-                    </a>
-                  </p>
-                  <p className="welcome-one__text-two">
-                    We are great players in the Forex industry.{" "}
-                    <a href="#">
-                      <b>Join us</b>
-                    </a>{" "}
-                    today and start off your journey to financial freedom.
-                  </p>
-                  <div className="welcome-one__call">
-                    <div className="welcome-one__call-icon">
-                      <span className="icon-phone-ringing"></span>
-                    </div>
-                    <div className="welcome-one__call-text">
-                      <p>Have any question? Give us a call</p>
-                      <a href="tel:+92-666-888-0000">+234 904 343 0808</a>
+                      <h3>M.B. Samuel</h3>
+                      <p>Co-founder and CEO</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        {/* Box Statements */}
-        <section className="two-boxes">
+        {/* Why Choose us */}
+        <div className="pb-5">
           <div className="container">
             <div className="row">
-              <div className="col-xl-6 col-lg-6">
-                <div className="two-boxes__single">
-                  <div className="two-boxes__single-content">
-                    <div className="two-boxes__count">
-                      <span></span>
-                    </div>
-                    <div className="two-boxes__content">
-                      <h3 className="two-boxes__title">
-                        We know WHAT to trade
-                      </h3>
-                      <p className="two-boxes__text">
-                        With a team of dedicated experts, we know the right
-                        commodity to trade for our clients.
-                      </p>
-                    </div>
-                  </div>
+              <div className="col-12">
+                {/* Title and Desc. */}
+                <div className="section-heading text-center my-5">
+                  <h3 className="semi-bold font-size-35">Why Choose Us</h3>
+                  <div className="section-heading-line line-thin"></div>
+                  <p>
+                    We are experts in creating a value for you and your business
+                  </p>
                 </div>
-              </div>
 
-              <div className="col-xl-6 col-lg-6">
-                <div className="two-boxes__single">
-                  <div className="two-boxes__single-content">
-                    <div className="two-boxes__count">
-                      <span></span>
-                    </div>
-                    <div className="two-boxes__content">
-                      <h3 className="two-boxes__title">
-                        We know WHEN to trade
-                      </h3>
-                      <p className="two-boxes__text">
-                        We have a good understanding of times and seasons, we
-                        are 24/7 committed to success
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-xl-6 col-lg-6">
-                <div className="two-boxes__single">
-                  <div className="two-boxes__single-content">
-                    <div className="two-boxes__count">
-                      <span></span>
-                    </div>
-                    <div className="two-boxes__content">
-                      <h3 className="two-boxes__title">
-                        We know WHERE to trade
-                      </h3>
-                      <p className="two-boxes__text">
-                        We help our clients make the best decisions with the
-                        help of our powerful AI systems
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-xl-6 col-lg-6">
-                <div className="two-boxes__single">
-                  <div className="two-boxes__single-content">
-                    <div className="two-boxes__count">
-                      <span></span>
-                    </div>
-                    <div className="two-boxes__content">
-                      <h3 className="two-boxes__title">We know HOW to trade</h3>
-                      <p className="two-boxes__text">
-                        We've got the right strategise in place, all our clients
-                        are assured of amazing results
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-xl-6 col-lg-6">
-                <div className="two-boxes__single">
-                  <div className="two-boxes__single-content">
-                    <div className="two-boxes__count">
-                      <span></span>
-                    </div>
-                    <div className="two-boxes__content">
-                      <h3 className="two-boxes__title">
-                        We Are CAC Certified Company
-                      </h3>
-                      <p className="two-boxes__text">
-                        We have achieved CAC RC:3005196 certification. NDIC and
-                        SEC in process
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-xl-6 col-lg-6">
-                <div className="two-boxes__single">
-                  <div className="two-boxes__single-content">
-                    <div className="two-boxes__count">
-                      <span></span>
-                    </div>
-                    <div className="two-boxes__content">
-                      <h3 className="two-boxes__title">We Are Obaforex!</h3>
-                      <p className="two-boxes__text">
-                        We are the leading Global Forex trading company. Become
-                        part of what we do.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Our Mission, Vision and Strategy */}
-        <section className="cases-one">
-          <div className="container">
-            <div className="section-title text-center">
-              <h2 className="section-title__title">More About Us</h2>
-              <span className="section-title__tagline">
-                We help our clients achieve their goals to financial freedom.
-              </span>
-            </div>
-            <div className="row">
-              {/* Our Mission */}
-              <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="cases-one__single">
-                  <div className="cases-one__img-box">
-                    <div className="cases-one__img">
-                      <img
-                        src="assets/images/resources/cases-1-img-1.jpg"
-                        alt=""
-                      />
-                    </div>
-                    <div className="cases-one__content">
-                      <div className="cases-one__icon">
-                        <span className="icon-mobile-analytics"></span>
+                <div className="row">
+                  {chooseUs.map((rec, idx) => (
+                    <div key={idx} className="col-xs-12 col-md-6 mt-2">
+                      <div className="contact-icon-box callback-block p-5">
+                        <div className="testmonial-box-icon numb">
+                          {idx + 1}
+                        </div>
+                        <div className="testmonial-box-content">
+                          <h3>{rec?.title}</h3>
+                          <p>{rec?.desc}</p>
+                        </div>
                       </div>
-                      <h2 className="cases-one__tilte">
-                        <a href="cases-details.html">Our Mission</a>
-                      </h2>
-                      <p className="cases-one__tagline">
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* More about Us : Our Mission, Vision and Strategies */}
+        <div
+          className="section-block grey-bg jarallax"
+          data-jarallax
+          data-speed="0.9"
+          style={{ backgroundImage: "url('img/content/business/bg-map.png')" }}
+        >
+          <div className="container">
+            <div className="row">
+              {/* Video Section */}
+              <div className="col-md-6 col-sm-12 col-12">
+                <div className="video-video-box full-width">
+                  <img
+                    src="img/video-img.png"
+                    alt="img"
+                    className="shadow-primary"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="video-video-box-overlay">
+                    <div className="video-video-box-button-sm">
+                      <button
+                        className="video-video-play-icon pulsebox-1"
+                        data-izimodal-open=".izimodal"
+                      >
+                        <i className="fa fa-play"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="izimodal"
+                  data-iziModal-width="800px"
+                  data-iziModal-fullscreen="true"
+                >
+                  <iframe
+                    height="415"
+                    src="https://www.youtube.com/embed/nrJtHemSPW4"
+                    className="full-width shadow-primary"
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Text Section */}
+              <div className="col-md-6 col-sm-12 col-12">
+                <div className="pl-45-md">
+                  <div className="section-heading">
+                    <h3 className="semi-bold">More About Us</h3>
+                    <p>
+                      We help our clients achieve their goals to financial
+                      freedom.
+                    </p>
+                  </div>
+                  <div>
+                    <div className="contact-icon-box">
+                      <i className="icon-phone-book"></i>
+                      <h4>Our Mission</h4>
+                      <h5>
                         To provide education and tools in order to improve
                         people's financial knowledge and thus generate a
                         significant change in their economy.
-                      </p>
+                      </h5>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Our Vision */}
-              <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="cases-one__single">
-                  <div className="cases-one__img-box">
-                    <div className="cases-one__img">
-                      <img
-                        src="assets/images/resources/cases-1-img-2.jpg"
-                        alt=""
-                      />
-                    </div>
-                    <div className="cases-one__content">
-                      <div className="cases-one__icon">
-                        <span className="icon-research"></span>
-                      </div>
-                      <h2 className="cases-one__tilte">
-                        <a href="cases-details.html">Our Vision</a>
-                      </h2>
-                      <p className="cases-one__tagline">
+                    <div className="contact-icon-box">
+                      <i className="icon-opened-email-outlined-interface-symbol"></i>
+                      <h4>Our Vision</h4>
+                      <h5>
                         Simplifying worldwide trading and maximizing Africa's
                         investment opportunity.
-                      </p>
+                      </h5>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Our Strategies */}
-              <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="cases-one__single">
-                  <div className="cases-one__img-box">
-                    <div className="cases-one__img">
-                      <img
-                        src="assets/images/resources/cases-1-img-3.jpg"
-                        alt=""
-                      />
-                    </div>
-                    <div className="cases-one__content">
-                      <div className="cases-one__icon">
-                        <span className="icon-creative"></span>
-                      </div>
-                      <h2 className="cases-one__tilte">
-                        <a href="cases-details.html">Our Strategies</a>
-                      </h2>
-                      <p className="cases-one__tagline">
+                    <div className="contact-icon-box">
+                      <i className="icon-location"></i>
+                      <h4>Our Strategies</h4>
+                      <h5>
                         Integrity and transparency are the values that define
                         Obaforex. We are governed by a strong ethical conduct.
-                      </p>
+                      </h5>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
         {/* You found Us */}
-        <section className="our-mission">
-          <div
-            className="our-mission-bg jarallax"
-            data-jarallax
-            data-speed="0.2"
-            data-imgPosition="50% 0%"
-            style={{
-              backgroundImage:
-                "url(assets/images/backgrounds/our-mission-bg.jpg)",
-            }}
-          ></div>
+        <div
+          className="section-block-parallax jarallax black-overlay-70 found-us"
+          data-jarallax
+          data-speed="0.6"
+        >
           <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="our-mission__inner">
-                  <h2 className="our-mission__title">
-                    You Found Us, <br />
-                    Now Let Us Help You <br />
-                    Gain Financial Freedom
-                  </h2>
-                  <a href="/join" className="thm-btn our-mission__btn">
-                    Join Now
-                  </a>
-                </div>
-              </div>
+            <div className="large-heading text-center">
+              <h4 className="semi-bold white-color">
+                You found Us, <br /> Now let us help you gain financial freedom!
+              </h4>
+              <div className="section-heading-line"></div>
+            </div>
+            <div className="mt-25 text-center">
+              <a href="#" className="button-md button-white-bordered mt-10">
+                Join Us
+              </a>
             </div>
           </div>
-        </section>
-
-        {/* Invest and Chill */}
-        <section className="faq-one">
-          <div className="container">
-            <div className="section-title text-center">
-              <h2 className="section-title__title">Invest and Chill</h2>
-              <span className="section-title__tagline">
-                Join Us, let's help you with all the complexities of Forex
-                Trading.
-              </span>
-            </div>
-            <div className="row">
-              <div className="col-xl-6">
-                <div className="welcome-one__left">
-                  <div className="welcome-one__img-box">
-                    <img src="assets/images/logo-img.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-6">
-                <div className="faq-one__right">
-                  <div className="faq-one__img">
-                    <img src="assets/images/oba-team.png" alt="Obaforex Team" />
-                  </div>
-                  <div className="faq-one__bottom">
-                    <div className="faq-one__list-box">
-                      <ul className="list-unstyled faq-one__list">
-                        <li>
-                          <div className="icon">
-                            <span className="icon-tick"></span>
-                          </div>
-                          <div className="text">
-                            <p>We help manage your forex account</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-tick"></span>
-                          </div>
-                          <div className="text">
-                            <p>We give you accurate signals</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-tick"></span>
-                          </div>
-                          <div className="text">
-                            <p>We train on Forex</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-tick"></span>
-                          </div>
-                          <div className="text">
-                            <p>We provide partnership</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-tick"></span>
-                          </div>
-                          <div className="text">
-                            <p>We trade, you invest and earn</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-tick"></span>
-                          </div>
-                          <div className="text">
-                            <p>We support you all the way</p>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="faq-one__experience-box">
-                      <h2>12</h2>
-                      <p>
-                        Years of <br /> Expeirence
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
 
         {/* Our Partners */}
-        <Partners />
+        <div className="section-block section-sm border-bottom partners">
+          <div className="container">
+            <div className="section-heading text-center mb-5">
+              <h3 className="semi-bold">Our Partners</h3>
+              <div className="section-heading-line"></div>
+              <p>Our Top Partners</p>
+            </div>
+            <div
+              className="owl-carousel owl-theme customizable-carousel mt-50"
+              data-loop="true"
+              data-items="4"
+              data-md-items="4"
+              data-sm-items="1"
+              data-xs-items="1"
+              data-space="15"
+              data-autoplay="true"
+              data-autospeed="4000"
+              data-nav-dots="true"
+              data-nav-arrows="false"
+            >
+              <div className="item">
+                <img
+                  className="part-img"
+                  src="img/partners/hotforex-logo.png"
+                  alt="img"
+                />
+              </div>
+              <div className="item">
+                <img
+                  className="part-img"
+                  src="img/partners/binary-logo.png"
+                  alt="img"
+                />
+              </div>
+              <div className="item">
+                <img
+                  className="part-img"
+                  src="img/partners/xm-broker-logo.png"
+                  alt="img"
+                />
+              </div>
+              <div className="item">
+                <img
+                  className="part-img"
+                  src="img/partners/berry-logo.png"
+                  alt="img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
 
-        {/* Our Team */}
-        <Team />
-
-        {/* Google Map */}
-        <section className="google-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.237450532857!2d8.863871717443848!3d9.830413700000026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105375a46a35b1a7%3A0xe6245d4ae13fdfc6!2sObaforex%20Global%20Trading!5e0!3m2!1sen!2sng!4v1618650461578!5m2!1sen!2sng"
-            className="google-map__one"
-            allowFullScreen
-          ></iframe>
-        </section>
-
-        {/* Join us tag */}
-        <JoinUs />
+        {/* Invest and Chill */}
+        <div className="action-box action-box-md grey-bg center-holder-xs">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-10 col-12">
+                <h3 className="bold">Invest and Chill</h3>
+                <p>
+                  Join Us let's help you with all the complexities of Forex
+                  Trading
+                </p>
+              </div>
+              <div className="col-md-2 col-12 text-right center-holder-xs mt-10">
+                <a href="#" className="button-md button-primary">
+                  Join Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </Layout>
     </>
   );

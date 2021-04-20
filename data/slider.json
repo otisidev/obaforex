@@ -1,32 +1,44 @@
 [
   {
-    "img_path": "assets/images/backgrounds/slider1.png",
-    "title": ["Obaforex Global", "Trading Ltd"],
-    "desc": "Welcome to Obaforex Global Trading Ltd, a global foreign currency and investment company tailored to meet your individual needs."
+    "img_path": "img/slider/slider1.png",
+    "title": "Obaforex Global Trading Ltd",
+    "desc": [
+      "Welcome to Obaforex Global Trading Ltd,",
+      "a global foreign currency and investment company tailored to meet your individual needs"
+    ]
   },
   {
-    "img_path": "assets/images/backgrounds/slider2.png",
-    "title": ["Forex Training"],
-    "desc": "Come get trained by experts on how to gain financial freedom."
+    "img_path": "img/slider/slider2.png",
+    "title": "Forex Training",
+    "desc": [
+      "Come get trained by experts on how to gain financial freedom",
+      "Available Online and Offline"
+    ]
   },
   {
-    "img_path": "assets/images/backgrounds/slider3.png",
-    "title": ["Forex Account", "Management"],
-    "desc": "We manage and grow your Forex Account for you."
+    "img_path": "img/slider/slider3.png",
+    "title": "Forex Account Management",
+    "desc": ["We manage and grow your Forex Account for you"]
   },
   {
-    "img_path": "assets/images/backgrounds/slider4.png",
-    "title": ["Invest with us", "Today"],
-    "desc": "Get 25% Monthly ROI on your investment for one year."
+    "img_path": "img/slider/slider4.png",
+    "title": "25% ROI Monthly. Invest with Us Today",
+    "desc": [
+      "You are assured of 25% ROI of your Investment Capital for TWELVE MONTHS",
+      "when you invest with Obaforex. We keep our promises"
+    ]
   },
   {
-    "img_path": "assets/images/backgrounds/slider5.png",
-    "title": ["Refer a Person"],
-    "desc": "Stand the change of winning great gifts in the company when you refer someone"
+    "img_path": "img/slider/slider5.png",
+    "title": "Refer a Person",
+    "desc": [
+      "Stand the change of winning great gifts in the company",
+      " when you refer someone"
+    ]
   },
   {
-    "img_path": "assets/images/backgrounds/slider6.png",
-    "title": ["Obaforex Copy", "Trade"],
-    "desc": "Signup for our Copy trade and follow the King of trading himself"
+    "img_path": "img/slider/slider6.png",
+    "title": "Obaforex Copy Trade",
+    "desc": ["Signup for our Copy trade and follow the King of trading himself"]
   }
 ]

@@ -4,10 +4,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
-          name="description"
-          content="Aivons HTML Template For Business Consulting"
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
         />
       </Head>
       <Component {...pageProps} />
