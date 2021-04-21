@@ -14,14 +14,14 @@ const About = () => {
       <div className="section-block">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-sm-6 col-12">
+            <div className="col-md-6 col-12">
               <img
                 src="img/about/about-img.png"
                 className="rounded-border shadow-primary"
                 alt=""
               />
             </div>
-            <div className="col-md-6 col-sm-6 col-12">
+            <div className="col-md-6 col-12">
               <div className="pl-30-md">
                 <div className="section-heading text-left mt-5">
                   <small className="text-scondary">Who we are</small>
@@ -50,7 +50,7 @@ const About = () => {
 
           {/* Flexibility, Integrity and Profitability */}
           <div className="row mt-40">
-            <div className="col-lg-4 col-md-4 col-sm-4 col-12">
+            <div className="col-lg-4 col-md-4 col-12">
               <div className="features-box">
                 <div className="features-box-icon">
                   <i className="icon-locked-combination-padlock-stroke"></i>
@@ -64,7 +64,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-12">
+            <div className="col-lg-4 col-md-4 col-12">
               <div className="features-box">
                 <div className="features-box-icon">
                   <i className="icon-marketing"></i>
@@ -78,7 +78,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-12">
+            <div className="col-lg-4 col-md-4 col-12">
               <div className="features-box">
                 <div className="features-box-icon">
                   <i className="icon-chess"></i>
@@ -123,14 +123,14 @@ const About = () => {
             {moreAboutUs.map((rec, idx) => (
               <div key={idx} className="item">
                 <div className="row">
-                  <div className="col-md-6 col-sm-6 col-12">
+                  <div className="col-md-6 col-12">
                     <img
                       src={rec?.img_path}
                       className="rounded-border"
                       alt=""
                     />
                   </div>
-                  <div className="col-md-6 col-sm-6 col-12">
+                  <div className="col-md-6 col-12">
                     <div className="pl-30-md">
                       <div className="section-heading text-left mt-5">
                         <small className="text-scondary">{rec?.title_sm}</small>
