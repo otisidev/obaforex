@@ -176,7 +176,7 @@ const Home = () => {
               <div className="col-12">
                 {/* Title and Desc. */}
                 <div className="section-heading text-center my-5">
-                  <h3 className="semi-bold font-size-35">Why Choose Us</h3>
+                  <h3 className="semi-bold font-size-35">Why Choose Us?</h3>
                   <div className="section-heading-line line-thin"></div>
                   <p>
                     We are experts in creating a value for you and your business
