@@ -2,6 +2,10 @@
   color: #1652f0 !important;
 }
 
+.text-scondary {
+  color: #bb712a !important;
+}
+
 .button-primary,
 .section-heading-line {
   background: #1652f0;
@@ -68,25 +72,42 @@ a:hover {
 .footer-news li span {
   color: #d6d6d6;
 }
+
 .custom-dot.active span {
   background: #1652f0 !important;
 }
 
-.found-us {
-  background-image: url("/img/banner.png");
+.section-block-parallax {
+  background-image: url("/img/banner.png") !important;
 }
 
 .socials a i {
   color: #999 !important;
   margin: 0 15px;
 }
+
 .socials a i:hover {
   color: #1652f0 !important;
 }
 
+.breadcrumb-section {
+  background-image: url("/img/banner-main.png") !important;
+}
+
+.numb-sm {
+  border: 2px solid #1650f0;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+
+.test-card {
+  min-height: 260px;
+}
+
 @media screen and (max-width: 760px) {
   .part-img {
-    margin-top: -4em !important;
+    margin-top: -3em !important;
   }
 }
 

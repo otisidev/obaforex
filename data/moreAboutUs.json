@@ -1,0 +1,43 @@
+[
+  {
+    "img_path": "img/about/more/team.png",
+    "title_sm": "Our Team",
+    "title": "A Team of Young Experts",
+    "body_text": [
+      "Obaforex is managed by a young team with expertise and experience from the fields of management, information technology, finance, sales and marketing.",
+      "Founder & CEO – Moses B. Samuel is an experienced Fund Manager and IT Professional with over 15 years combined cross-field experience in Management, IT, Marketing and Sales. He founded Obatech Computing Technologies; an IT company that provides proprietary IT Services, Training and IT business solutions in 2009.",
+      "We are a team of experienced currency traders and traders with over 14 years’ experience in the currency, blockchain industry."
+    ]
+  },
+  {
+    "img_path": "img/about/more/involvement.png",
+    "title_sm": "Our Involvement",
+    "title": "We Do More",
+    "body_text": [
+      "Obaforex is actively engaged in day-trading of foreign currency exchange on major exchanges, flipping of ICOs, and signal provideing.",
+      "We also engage in building and growing series of offline businesses such as Obaforex Corporate Services, Obaforex ICT Training, Obaforex Restaurants, Obaforex Transport Services, Obaforex Entertainment, Obaforex Farm, Obaforex Real Estate, Obaforex Computer Clinic and Obaforex Digital Studio, etc…",
+      "We are involved in short-term trading of selected products and services producing consistent profits; and other business opportunities as our experts determines to be profitable and sustainable."
+    ]
+  },
+  {
+    "img_path": "img/about/more/commitment.png",
+    "title_sm": "Our Commitment",
+    "title": "We Keep Our Promises",
+    "body_text": [
+      "Let’s GROW YOUR MONEY by 25% every month",
+      "At Obaforex, you invest a minimum of one hundred thousand naira (N100,000) and maximum of Hundrend million naira (N100,000,000) and earn 25% monthly for 12 months",
+      "As such, we guarantee the safety of your invested capital. So you are in control of your capital. Therefore, with us, there's no possibility of you losing your capital and we are committed to delivering a good trading result!"
+    ]
+  },
+  {
+    "img_path": "img/about/more/system.png",
+    "title_sm": "Our System",
+    "title": "We are sophisticated",
+    "body_text": [
+      "Obaforex is a financial technology and automated trading & investment service co",
+      "We offer sophisticated A.I driven automated trading solutions for financial markets.",
+      "Our mission is to simplify investing & empower investors with innovations in financial & machine learning sciences. Our artificial intelligence for algorithmic trading formulates winning strategies & rigorous risk management to grow client’s wealth.",
+      "We develop sophisticated trading models that are able to continuously learn and improve using advances in A.I, artificial neural network, machine learning, deep learning, big data, and analytics to minimize client risk and maximize returns."
+    ]
+  }
+]

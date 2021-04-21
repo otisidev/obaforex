@@ -2,82 +2,89 @@
   {
     "name": "Moses Adebayo Samuel (MCTS)",
     "position": "MD / CEO",
-    "img_path": "assets/images/team/team1.jpg",
+    "img_path": "img/team/team1.png",
     "social": {
       "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   },
   {
     "name": "Misheal Oluwaseyi Ezekiel",
     "position": "Forex Trader/Training Director",
-    "img_path": "assets/images/team/team2.jpg",
+    "img_path": "img/team/team2.png",
     "social": {
       "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   },
   {
     "name": "Japhet Usman",
     "position": "Forex Trader/Pilot",
-    "img_path": "assets/images/team/team3.jpg",
+    "img_path": "img/team/team3.png",
     "social": {
       "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   },
   {
     "name": "Omotayo Andrew Adeporoye",
     "position": "Forex Trader",
-    "img_path": "assets/images/team/team4.jpg",
+    "img_path": "img/team/team4.png",
     "social": {
       "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   },
   {
     "name": "David Samuel",
     "position": "Forex Trader/Signal Manager",
-    "img_path": "assets/images/team/team5.jpg",
+    "img_path": "img/team/team5.png",
     "social": {
       "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   },
   {
     "name": "Vincent Tobi Bello",
     "position": "Forex Trader/Accountant",
-    "img_path": "assets/images/team/team6.jpg",
+    "img_path": "img/team/team6.png",
     "social": {
       "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   },
   {
     "name": "Obioha Rachel Ogechi",
     "position": "Forex Trader/CSM",
-    "img_path": "assets/images/team/team7.jpg",
+    "img_path": "img/team/team7.png",
     "social": {
       "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   },
   {
     "name": "Onyilimba Stanley Tochukwu",
     "position": "Forex Trader/Marketing Manager",
-    "img_path": "assets/images/team/team8.jpg",
+    "img_path": "img/team/team8.png",
     "social": {
       "twitter": "",
-      "facebook": ""
-    }
-  },
-  {
-    "name": "Obaforex Team",
-    "position": "We are Professional Traders",
-    "img_path": "assets/images/team/team9.jpg",
-    "social": {
-      "twitter": "",
-      "facebook": ""
+      "facebook": "",
+      "instagram": "",
+      "skype": ""
     }
   }
 ]
