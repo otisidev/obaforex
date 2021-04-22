@@ -9,7 +9,7 @@ export const Team = () => {
           <div className="section-heading-line line-thin"></div>
           <p>We have the best hands. Meet Our Team Of Professionals</p>
         </div>
-        <div className="row mt-30">
+        <div className="row">
           <div
             className="owl-carousel owl-theme customizable-carousel mt-50"
             data-loop="true"
