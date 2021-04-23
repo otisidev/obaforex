@@ -20,7 +20,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 col-12 d-none d-md-block">
               <img
-                src="img/about/about-img.png"
+                src="/img/about/about-img.png"
                 className="rounded-border shadow-primary"
                 alt=""
               />

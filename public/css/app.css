@@ -32,6 +32,7 @@ a:hover {
 }
 .text-left .section-heading-line {
   background: #1652f0;
+  /* #bb712a0d */
 }
 
 .top-bar-info li {
@@ -123,9 +124,36 @@ a:hover {
   background-color: #1e23630f !important;
 }
 
-@media screen and (max-width: 760px) {
+.pricing-section-price h2 {
+  color: #1652f0 !important;
+}
+
+.pricing-section-advanced {
+  background-color: #1652f00d !important;
+}
+
+.pricing-section {
+  border: 1px solid transparent !important;
+}
+
+.pricing-section-advanced {
+  border: 2px solid transparent !important;
+}
+
+.pricing-section-price h2 sup {
+  color: #bb712a !important;
+}
+
+.bg-white {
+  background: white !important;
+}
+
+@media screen and (max-width: 766px) {
   .part-img {
     margin-top: -3em !important;
+  }
+  .mt-sm {
+    margin-top: 50px !important;
   }
 }
 

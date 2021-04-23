@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Statement from the CEO, the king himself */}
+        {/* We are Obaforex. Statement from the CEO, the king himself */}
         <div className="section-block grey-bg background-shape-3">
           <div className="container">
             <div className="row">

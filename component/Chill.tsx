@@ -1,6 +1,13 @@
-export const Chill = () => {
+type prop = {
+  bgColor?: string;
+};
+export const Chill = ({ bgColor }: prop) => {
   return (
-    <div className="action-box action-box-md grey-bg center-holder-xs">
+    <div
+      className={`action-box action-box-md ${
+        bgColor ? bgColor : "grey-bg"
+      } center-holder-xs`}
+    >
       <div className="container">
         <div className="row">
           <div className="col-md-10 col-12">

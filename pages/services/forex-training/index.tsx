@@ -6,7 +6,7 @@ const forexTraining = () => {
   return (
     <Layout title="Forex Training">
       {/* Banner */}
-      <Banner page="Training" />
+      <Banner page="Forex Training" />
 
       {/* Obaforex Academy */}
       <div className="section-block grey-bg background-shape-3 border-bottom">
