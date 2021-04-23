@@ -33,7 +33,9 @@ const forexTraining = () => {
                 <div className="testmonial-item-5-text mb-3">
                   <p>
                     <strong className="text-primary">Cost: </strong>
-                    <span className="text-success font-weight-bold">Free</span>
+                    <span className="text-success" style={{ fontSize: "24px" }}>
+                      Free
+                    </span>
                   </p>
                   <p>
                     <strong className="text-primary">Period: </strong>Two Days
@@ -63,7 +65,7 @@ const forexTraining = () => {
                 <div className="testmonial-item-5-text mb-3">
                   <p>
                     <strong className="text-primary">Cost: </strong>
-                    <span className="font-weight-bold">$250</span>
+                    <span style={{ fontSize: "24px" }}>$250</span>
                   </p>
                   <p>
                     <strong className="text-primary">Period: </strong>One Month
@@ -93,7 +95,7 @@ const forexTraining = () => {
                 <div className="testmonial-item-5-text mb-3">
                   <p>
                     <strong className="text-primary">Cost: </strong>
-                    <span className="font-weight-bold">$450</span>
+                    <span style={{ fontSize: "24px" }}>$450</span>
                   </p>
                   <p>
                     <strong className="text-primary">Period: </strong>One Week
@@ -124,7 +126,7 @@ const forexTraining = () => {
                 <div className="testmonial-item-5-text mb-3">
                   <p>
                     <strong className="text-primary">Cost: </strong>
-                    <span className="font-weight-bold">$550</span>
+                    <span style={{ fontSize: "24px" }}>$550</span>
                   </p>
                   <p>
                     <strong className="text-primary">Period: </strong>One Week
@@ -155,7 +157,7 @@ const forexTraining = () => {
                 <div className="testmonial-item-5-text mb-3">
                   <p>
                     <strong className="text-primary">Cost: </strong>
-                    <span className="font-weight-bold">$600</span>
+                    <span style={{ fontSize: "24px" }}>$600</span>
                   </p>
                   <p>
                     <strong className="text-primary">Period: </strong>One Week
