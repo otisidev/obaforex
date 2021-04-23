@@ -8,7 +8,7 @@ export const Footer = () => {
             <div className="col-md-3 col-sm-6 col-12">
               <a href="/">
                 <img
-                  src="img/logos/logo-white.png"
+                  src="/img/logos/logo-white.png"
                   id="footer_logo"
                   alt="logo"
                   style={{ marginTop: "-20px" }}

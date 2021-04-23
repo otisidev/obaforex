@@ -104,12 +104,23 @@ a:hover {
 .test-card {
   min-height: 260px;
 }
+.test-card2 {
+  min-height: 380px;
+}
 
 .card-primary a {
   color: #1650f0 !important;
 }
 .card-primary a:hover {
   color: #1650f0 !important;
+}
+
+.why-train-card {
+  min-height: 215px !important;
+}
+
+.bg-light-blue {
+  background-color: #1e23630f !important;
 }
 
 @media screen and (max-width: 760px) {

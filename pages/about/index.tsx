@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Banner } from "../../component/Banner";
+import { Chill } from "../../component/Chill";
 import { Layout } from "../../component/Layout";
 import { Partners } from "../../component/Partners";
 import { Team } from "../../component/Team";
@@ -365,6 +366,9 @@ const About = () => {
 
       {/* Our Partners */}
       <Partners />
+
+      {/* Invest and Chill */}
+      <Chill />
     </Layout>
   );
 };

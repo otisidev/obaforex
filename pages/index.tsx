@@ -1,6 +1,7 @@
 import { Layout } from "../component/Layout";
 import { Partners } from "../component/Partners";
 import { Slider } from "../component/Slider";
+import { Chill } from "../component/Chill";
 import chooseUs from "../data/chooseUs.json";
 
 const Home = () => {
@@ -11,10 +12,7 @@ const Home = () => {
         <Slider />
 
         {/* Welcome to Obaforex */}
-        <div
-          className="section-block-bg"
-          style={{ backgroundImage: "url('img/content/business/bg5.jpg')" }}
-        >
+        <div className="section-block-bg partners">
           <div className="container">
             {/* Title and Desc. */}
             <div className="section-heading text-center">
@@ -240,7 +238,7 @@ const Home = () => {
                 >
                   <iframe
                     height="415"
-                    src="https://www.youtube.com/embed/nrJtHemSPW4"
+                    src="https://www.youtube.com/watch?v=osnUQfGzqzU"
                     className="full-width shadow-primary"
                   ></iframe>
                 </div>
@@ -314,24 +312,7 @@ const Home = () => {
         <Partners />
 
         {/* Invest and Chill */}
-        <div className="action-box action-box-md grey-bg center-holder-xs">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-10 col-12">
-                <h3 className="bold">Invest and Chill</h3>
-                <p>
-                  Join Us let's help you with all the complexities of Forex
-                  Trading
-                </p>
-              </div>
-              <div className="col-md-2 col-12 text-right center-holder-xs mt-10">
-                <a href="#" className="button-md button-primary">
-                  Join Us
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Chill />
       </Layout>
     </>
   );
