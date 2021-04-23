@@ -178,10 +178,10 @@ const forexSignal = () => {
                   <h4>Pro FX Trader Package</h4>
                   <h6>*Rates are subject to change</h6>
                   <h2>
-                    <sup>$</sup>130
+                    <sup>$</sup>250
                     <span style={{ fontSize: "18px", color: "#bb712a" }}>
                       {" "}
-                      / 3-Mnth
+                      / 6-Mnth
                     </span>
                   </h2>
                 </div>
