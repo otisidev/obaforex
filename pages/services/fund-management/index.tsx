@@ -5,7 +5,7 @@ const fundManagement = () => {
   return (
     <Layout title="Fund Management">
       {/* Banner */}
-      <Banner page="Forex Training" />
+      <Banner page="Fund Management" />
 
       {/* Lets Help You Manage Your Forex Account */}
       <div className="section-block grey-bg background-shape-3 border-bottom">
