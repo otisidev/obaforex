@@ -1,3 +1,6 @@
+p {
+  color: #666666 !important;
+}
 .text-primary {
   color: #1652f0 !important;
 }
@@ -146,6 +149,10 @@ a:hover {
 
 .bg-white {
   background: white !important;
+}
+
+.prop {
+  color: #444444;
 }
 
 @media screen and (max-width: 766px) {

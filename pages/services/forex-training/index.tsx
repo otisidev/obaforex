@@ -32,21 +32,19 @@ const forexTraining = () => {
                 <h5>Beginner Class</h5>
                 <div className="testmonial-item-5-text mb-3">
                   <p>
-                    <strong className="text-primary">Cost: </strong>
+                    <strong className="prop">Cost: </strong>
                     <span className="text-success" style={{ fontSize: "24px" }}>
                       Free
                     </span>
                   </p>
                   <p>
-                    <strong className="text-primary">Period: </strong>Two Days
-                    (2days)
+                    <strong className="prop">Period: </strong>Two Days (2days)
                   </p>
                   <p>
-                    <strong className="text-primary">Duration: </strong>Two
-                    hours (2hrs)
+                    <strong className="prop">Duration: </strong>Two hours (2hrs)
                   </p>
                   <p>
-                    <strong className="text-primary">Requirement: </strong>
+                    <strong className="prop">Requirement: </strong>
                     Laptop / Smart Devices, Internet connection
                   </p>
                 </div>
@@ -64,19 +62,18 @@ const forexTraining = () => {
                 <h5>Intermediate Class</h5>
                 <div className="testmonial-item-5-text mb-3">
                   <p>
-                    <strong className="text-primary">Cost: </strong>
+                    <strong className="prop">Cost: </strong>
                     <span style={{ fontSize: "24px" }}>$250</span>
                   </p>
                   <p>
-                    <strong className="text-primary">Period: </strong>One Month
-                    (1Mnth, 3 times a week) (2days)
+                    <strong className="prop">Period: </strong>One Month (1Mnth,
+                    3 times a week) (2days)
                   </p>
                   <p>
-                    <strong className="text-primary">Duration: </strong>Two
-                    hours (2hrs)
+                    <strong className="prop">Duration: </strong>Two hours (2hrs)
                   </p>
                   <p>
-                    <strong className="text-primary">Requirement: </strong>
+                    <strong className="prop">Requirement: </strong>
                     Laptop / Smart Devices, Internet connection
                   </p>
                 </div>
@@ -94,19 +91,18 @@ const forexTraining = () => {
                 <h5>Professional Class</h5>
                 <div className="testmonial-item-5-text mb-3">
                   <p>
-                    <strong className="text-primary">Cost: </strong>
+                    <strong className="prop">Cost: </strong>
                     <span style={{ fontSize: "24px" }}>$450</span>
                   </p>
                   <p>
-                    <strong className="text-primary">Period: </strong>One Week
-                    (1Wk, Every day) (2days)
+                    <strong className="prop">Period: </strong>One Week (1Wk,
+                    Every day) (2days)
                   </p>
                   <p>
-                    <strong className="text-primary">Duration: </strong>Two
-                    hours (2hrs)
+                    <strong className="prop">Duration: </strong>Two hours (2hrs)
                   </p>
                   <p>
-                    <strong className="text-primary">Requirement: </strong>
+                    <strong className="prop">Requirement: </strong>
                     Live Trading Account, Laptop / Smart Devices, Internet
                     connection, Minimum balance of $500
                   </p>
@@ -125,19 +121,18 @@ const forexTraining = () => {
                 <h5>Master Class</h5>
                 <div className="testmonial-item-5-text mb-3">
                   <p>
-                    <strong className="text-primary">Cost: </strong>
+                    <strong className="prop">Cost: </strong>
                     <span style={{ fontSize: "24px" }}>$550</span>
                   </p>
                   <p>
-                    <strong className="text-primary">Period: </strong>One Week
-                    (1Wk, Every day) (2days)
+                    <strong className="prop">Period: </strong>One Week (1Wk,
+                    Every day) (2days)
                   </p>
                   <p>
-                    <strong className="text-primary">Duration: </strong>Two
-                    hours (2hrs)
+                    <strong className="prop">Duration: </strong>Two hours (2hrs)
                   </p>
                   <p>
-                    <strong className="text-primary">Requirement: </strong>
+                    <strong className="prop">Requirement: </strong>
                     Trading Account, Laptop / Smart Devices, Internet
                     connection, Minimum balance of $500
                   </p>
@@ -156,19 +151,18 @@ const forexTraining = () => {
                 <h5>Binary Class</h5>
                 <div className="testmonial-item-5-text mb-3">
                   <p>
-                    <strong className="text-primary">Cost: </strong>
+                    <strong className="prop">Cost: </strong>
                     <span style={{ fontSize: "24px" }}>$600</span>
                   </p>
                   <p>
-                    <strong className="text-primary">Period: </strong>One Week
-                    (1Wk, Every day) (2days)
+                    <strong className="prop">Period: </strong>One Week (1Wk,
+                    Every day) (2days)
                   </p>
                   <p>
-                    <strong className="text-primary">Duration: </strong>Two
-                    hours (2hrs)
+                    <strong className="prop">Duration: </strong>Two hours (2hrs)
                   </p>
                   <p>
-                    <strong className="text-primary">Requirement: </strong>
+                    <strong className="prop">Requirement: </strong>
                     Trading Account, Laptop / Smart Devices, Internet
                     connection, Minimum balance of $250
                   </p>
@@ -229,7 +223,11 @@ const forexTraining = () => {
               <div className="testmonial-item-5 bg-light-blue">
                 <h5 className="text-center">Beginner Class</h5>
                 <div className="mt-20 text-center">
-                  <a href="#" className="button-primary button-md">
+                  <a
+                    href="/documents/beginners-class.pdf"
+                    target="_blank"
+                    className="button-primary button-md"
+                  >
                     Download
                   </a>
                 </div>
@@ -241,7 +239,11 @@ const forexTraining = () => {
               <div className="testmonial-item-5 bg-light-blue">
                 <h5 className="text-center">Intermediate Class</h5>
                 <div className="mt-20 text-center">
-                  <a href="#" className="button-primary button-md">
+                  <a
+                    href="/documents/intermediate-class.pdf"
+                    target="_blank"
+                    className="button-primary button-md"
+                  >
                     Download
                   </a>
                 </div>
@@ -253,7 +255,10 @@ const forexTraining = () => {
               <div className="testmonial-item-5 bg-light-blue">
                 <h5 className="text-center">Professional Class</h5>
                 <div className="mt-20 text-center">
-                  <a href="#" className="button-primary button-md">
+                  <a
+                    href="/documents/professional-class.pdf"
+                    className="button-primary button-md"
+                  >
                     Download
                   </a>
                 </div>
@@ -265,7 +270,10 @@ const forexTraining = () => {
               <div className="testmonial-item-5 bg-light-blue">
                 <h5 className="text-center">Master Class</h5>
                 <div className="mt-20 text-center">
-                  <a href="#" className="button-primary button-md">
+                  <a
+                    href="/documents/professional-class.pdf"
+                    className="button-primary button-md"
+                  >
                     Download
                   </a>
                 </div>
