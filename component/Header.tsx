@@ -7,13 +7,13 @@ export const Header = () => {
         <div className="nav-header">
           <a href="/" className="nav-brand">
             <img
-              src="/img/logos/logo-white.png"
+              src="/img/logos/logoWhite.png"
               className="main-logo"
               alt="logo"
               id="light_logo"
             />
             <img
-              src="/img/logos/logo-2.png"
+              src="/img/logos/logoMain.png"
               className="main-logo"
               alt="logo"
               id="main_logo"
