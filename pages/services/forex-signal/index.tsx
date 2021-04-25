@@ -1,5 +1,5 @@
 import { Banner } from "../../../component/Banner";
-import { Chill } from "../../../component/Chill";
+import { FundManager } from "../../../component/FundManager";
 import { Layout } from "../../../component/Layout";
 import signalService from "../../../data/signalService.json";
 
@@ -229,8 +229,8 @@ const forexSignal = () => {
         </div>
       </div>
 
-      {/* Invest and Chill */}
-      <Chill bgColor="bg-white" />
+      {/* Let's Help You Manage Your Forex Account */}
+      <FundManager bgColor="bg-white" />
     </Layout>
   );
 };

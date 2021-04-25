@@ -1,4 +1,5 @@
 import { Banner } from "../../../component/Banner";
+import { JoinUs } from "../../../component/JoinUs";
 import { Layout } from "../../../component/Layout";
 import WhyTrain from "../../../data/whyTrain.json";
 
@@ -26,6 +27,15 @@ const forexTraining = () => {
             </p>
           </div>
           <div className="row">
+            {/* Training Image */}
+            <div className="col-xs-12 col-md-6 col-lg-4">
+              <img
+                src="/img/training.png"
+                alt=""
+                className="shadow-primary"
+                style={{ marginTop: "15px", borderRadius: "10px" }}
+              />
+            </div>
             {/* Beginner Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -55,7 +65,6 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
-
             {/* Intermediate Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -84,7 +93,6 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
-
             {/* Professional Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -114,7 +122,6 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
-
             {/* Master Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -144,7 +151,6 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
-
             {/* Binary Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -282,6 +288,9 @@ const forexTraining = () => {
           </div>
         </div>
       </div>
+
+      {/* Join Us and Relax */}
+      <JoinUs />
     </Layout>
   );
 };

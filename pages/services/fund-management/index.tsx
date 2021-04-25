@@ -1,5 +1,6 @@
 import { Banner } from "../../../component/Banner";
 import { Layout } from "../../../component/Layout";
+import { Signal } from "../../../component/Signal";
 
 const fundManagement = () => {
   return (
@@ -201,6 +202,9 @@ const fundManagement = () => {
           </div>
         </div>
       </div>
+
+      {/* Get Reliable Signals from Us */}
+      <Signal bgColor="bg-white" />
     </Layout>
   );
 };
