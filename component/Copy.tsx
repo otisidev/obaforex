@@ -18,7 +18,7 @@ export const Copy = ({ bgColor }: prop) => {
           </div>
           <div className="col-md-2 col-12 text-right center-holder-xs mt-10">
             <a href="#" className="button-md button-primary">
-              Join Us
+              Copy Our Trade
             </a>
           </div>
         </div>

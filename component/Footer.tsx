@@ -12,7 +12,7 @@ export const Footer = () => {
                   src="/img/logos/logoWhite.png"
                   id="footer_logo"
                   alt="logo"
-                  style={{ marginTop: "-20px" }}
+                  style={{ marginTop: "-20px", width: "70%" }}
                 />
               </a>
               <p className="my-4 text-off-white">
