@@ -26,6 +26,7 @@ const forexTraining = () => {
               in the Forex Market
             </p>
           </div>
+
           <div className="row">
             {/* Training Image */}
             <div className="col-xs-12 col-md-6 col-lg-4">
@@ -36,6 +37,7 @@ const forexTraining = () => {
                 style={{ marginTop: "15px", borderRadius: "10px" }}
               />
             </div>
+
             {/* Beginner Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -65,6 +67,7 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
+
             {/* Intermediate Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -93,6 +96,7 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
+
             {/* Professional Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -122,6 +126,7 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
+
             {/* Master Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
@@ -151,6 +156,7 @@ const forexTraining = () => {
                 </div>
               </div>
             </div>
+
             {/* Binary Class */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="testmonial-item-5 test-card2">
