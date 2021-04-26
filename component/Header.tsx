@@ -8,13 +8,13 @@ export const Header = () => {
           <a href="/" className="nav-brand">
             <img
               src="/img/logos/logoWhite.png"
-              className="main-logo"
+              className="main-logo w-30"
               alt="logo"
               id="light_logo"
             />
             <img
               src="/img/logos/logoMain.png"
-              className="main-logo"
+              className="main-logo w-30"
               alt="logo"
               id="main_logo"
             />

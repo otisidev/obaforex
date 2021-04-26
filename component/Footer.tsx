@@ -6,6 +6,7 @@ export const Footer = () => {
           <div className="row">
             {/* Contact Information */}
             <div className="col-md-3 col-sm-6 col-12">
+              {/* Logo */}
               <a href="/">
                 <img
                   src="/img/logos/logoWhite.png"
@@ -14,7 +15,7 @@ export const Footer = () => {
                   style={{ marginTop: "-20px" }}
                 />
               </a>
-              <p className="my-4">
+              <p className="my-4 text-off-white">
                 Welcome to Obaforex Global Trading ltd, your ticket to financial
                 freedom.
               </p>
@@ -123,7 +124,7 @@ export const Footer = () => {
 
           {/* Full Risk Disclosure */}
           <div className="footer-1-bar">
-            <p>
+            <p className="text-off-white">
               FULL RISK DISCLOSURE: Trading contains substantial risk and is not
               for every investor. An investor could potentially lose all or more
               than the initial investment. Risk capital is money that can be
@@ -140,7 +141,9 @@ export const Footer = () => {
               {/* Copyright */}
               <div className="col-xs-12 col-lg-6 my-3">
                 <p>
-                  © Copyright 2021 OBAFOREX LTD, All rights reserved.{" "}
+                  © Copyright 2021{" "}
+                  <span className="text-off-white">OBAFOREX LTD,</span> All
+                  rights reserved.{" "}
                   <span style={{ color: "#999" }}>developed by</span>{" "}
                   <a href="http://looptrace.com" style={{ color: "#1652f0" }}>
                     looptrace.com

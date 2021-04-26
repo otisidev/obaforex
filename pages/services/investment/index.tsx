@@ -6,7 +6,7 @@ const investment = () => {
   return (
     <Layout title="Investment">
       {/* Banner */}
-      <Banner page="Fund Management" />
+      <Banner page="Investment" />
 
       {/* Invest And Earn */}
       <div className="section-block grey-bg background-shape-3 border-bottom">

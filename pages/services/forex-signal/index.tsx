@@ -34,9 +34,12 @@ const forexSignal = () => {
       >
         <div className="container">
           <div className="row">
+            {/* Image Section */}
             <div className="col-md-6 col-12">
               <img src="/img/signal2.png" className="rounded-border" alt="" />
             </div>
+
+            {/* Text Section */}
             <div className="col-md-6 col-12">
               <div className="pl-30-md">
                 <div className="section-heading text-left mt-5">

@@ -35,7 +35,6 @@ a:hover {
 }
 .text-left .section-heading-line {
   background: #1652f0;
-  /* #bb712a0d */
 }
 
 .top-bar-info li {
@@ -155,6 +154,10 @@ a:hover {
   color: #444444;
 }
 
+.text-off-white {
+  color: #999999 !important;
+}
+
 @media screen and (max-width: 766px) {
   .part-img {
     margin-top: -3em !important;
@@ -168,6 +171,14 @@ a:hover {
   .nav-header {
     width: 100%;
     text-align: center;
+  }
+
+  .w-30 {
+    width: 30% !important;
+  }
+
+  .w-70 {
+    width: 70% !important;
   }
 }
 @media screen and (max-width: 991px) {
