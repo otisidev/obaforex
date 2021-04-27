@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "5 - 13 - 63 Strategy",
+    "amount": "48,000",
+    "list": [
+      "Perfect Entry and Exit Point",
+      "EURUSD, GBPUSD, AUDUSD, USDJPY",
+      "15min & 1hour Timeframe",
+      "Risk management",
+      "20pips per trade",
+      "Sound Alert"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Amos 3 - 3 Strategy",
+    "amount": "150,000",
+    "list": [
+      "Perfect Entry and Exit Point",
+      "EURUSD, EURGBP, GBPJPY, GBPUSD, AUDUSD, USDJPY",
+      "1hour Timeframe",
+      "Risk management",
+      "40pips per trade",
+      "Sound Alert"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Obaforex Genesis",
+    "amount": "250,000",
+    "list": [
+      "Perfect Entry and Exit Point",
+      "EURUSD, EURGBP, GBPJPY, GBPUSD, AUDUSD, USDJPY",
+      "1hour Timeframe",
+      "Risk management",
+      "70pips per trade",
+      "Sound Alert"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Obaforex Revolution",
+    "amount": "480,000",
+    "list": [
+      "Perfect Entry and Exit Point",
+      "EURUSD, EURGBP, GBPJPY, GBPUSD, AUDUSD, USDJPY",
+      "1hour Timeframe",
+      "Risk management",
+      "120pips per trade",
+      "Sound Alert"
+    ]
+  }
+]

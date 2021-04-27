@@ -19,7 +19,7 @@ p {
   border-color: #1652f0;
 }
 a:hover {
-  color: #1652f0;
+  color: #bb712a !important;
 }
 
 .contact-icon-box i,
@@ -156,6 +156,17 @@ a:hover {
 
 .text-off-white {
   color: #999999 !important;
+}
+
+.pricing-section-price h3 {
+  color: #1652f0 !important;
+  font-weight: bold !important;
+}
+
+.pricing-section-price h3 sup {
+  color: #bb712a !important;
+  font-weight: bold !important;
+  text-decoration: double line-through;
 }
 
 @media screen and (max-width: 766px) {
