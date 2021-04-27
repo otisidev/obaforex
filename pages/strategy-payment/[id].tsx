@@ -60,14 +60,14 @@ const StrategyPayment = ({ id }) => {
             <a
               href="tel:+234943439595"
               className="button-primary button-md"
-              style={{ margin: "10px" }}
+              style={{ margin: "10px", zIndex: 1 }}
             >
               Call Us Now <i className="fas fa-phone ml-2"></i>
             </a>
             <a
               href="http://wa.me/234943439595"
               className="button-primary button-md"
-              style={{ margin: "10px" }}
+              style={{ margin: "10px", zIndex: 1 }}
             >
               Chat With Us <i className="fab fa-whatsapp ml-2"></i>
             </a>

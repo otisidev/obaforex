@@ -7,6 +7,7 @@ const CopyTrade = () => {
     <Layout title="Copy Trade">
       {/* Banner */}
       <Banner page="Copy Trade" />
+
       {/* Choose, Follow, Monitor.Earn By Copying From Obaforex. */}
       <div className="section-block grey-bg">
         <div className="container">

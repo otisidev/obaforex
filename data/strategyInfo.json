@@ -50,5 +50,11 @@
       "120pips per trade",
       "Sound Alert"
     ]
+  },
+  {
+    "id": 5,
+    "name": "Obaforex Binary Strategy",
+    "amount": "250,000",
+    "list": []
   }
 ]
