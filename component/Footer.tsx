@@ -135,7 +135,7 @@ export const Footer = () => {
             </p>
           </div>
 
-          {/* Copyright and Social Handles */}
+          {/* Copyright and Social Icons */}
           <div className="footer-1-bar">
             <div className="row">
               {/* Copyright */}
@@ -153,6 +153,7 @@ export const Footer = () => {
 
               {/* Social Icons */}
               <div className="col-xs-12 col-lg-6 socials my-3">
+                {/* Facebook */}
                 <a
                   href="https://web.facebook.com/Obaforexglobal"
                   target="_blank"
@@ -161,6 +162,8 @@ export const Footer = () => {
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
+
+                {/* Twitter */}
                 <a
                   href="https://twitter.com/Obaforex_global"
                   target="_blank"
@@ -168,6 +171,8 @@ export const Footer = () => {
                 >
                   <i className="fab fa-twitter"></i>
                 </a>
+
+                {/* Instagram */}
                 <a
                   href="https://web.instagram.com/Obaforex_global"
                   target="_blank"
@@ -176,6 +181,8 @@ export const Footer = () => {
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
+
+                {/* Telegram */}
                 <a
                   href="https://t.me/obaforex_global"
                   target="_blank"
@@ -183,9 +190,13 @@ export const Footer = () => {
                 >
                   <i className="fab fa-telegram"></i>
                 </a>
+
+                {/* Mail */}
                 <a href="mailto:support@obaforex.com" title="Send Mail">
                   <i className="fas fa-envelope"></i>
                 </a>
+
+                {/* Whatsapp */}
                 <a
                   href="https://wa.me/+2348098989862"
                   target="_blank"
@@ -193,6 +204,8 @@ export const Footer = () => {
                 >
                   <i className="fab fa-whatsapp"></i>
                 </a>
+
+                {/* LinkedIn */}
                 <a
                   href="https://www.linkedin.com/company/obaforexglobal"
                   target="_blank"
@@ -200,9 +213,13 @@ export const Footer = () => {
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
+
+                {/* Phone */}
                 <a href="tel:+2348098989862" target="_blank" title="Phone">
                   <i className="fas fa-phone"></i>
                 </a>
+
+                {/* Youtube */}
                 <a
                   href="https://www.youtube.com/user/Obaforex"
                   target="_blank"
@@ -210,6 +227,8 @@ export const Footer = () => {
                 >
                   <i className="fas fa-video"></i>
                 </a>
+
+                {/* Obaforex FM */}
                 <a
                   href="https://obaforex.airtime.pro"
                   target="_blank"

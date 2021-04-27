@@ -62,14 +62,14 @@ const StrategyPayment = ({ id }) => {
               className="button-primary button-md"
               style={{ margin: "10px" }}
             >
-              Call Us Now
+              Call Us Now <i className="fas fa-phone ml-2"></i>
             </a>
             <a
               href="http://wa.me/234943439595"
               className="button-primary button-md"
               style={{ margin: "10px" }}
             >
-              Chat With Us
+              Chat With Us <i className="fab fa-whatsapp ml-2"></i>
             </a>
           </div>
         </div>
