@@ -1,0 +1,26 @@
+[
+  {
+    "name": "HotForex",
+    "logo_path": "/img/partners/hotforex-logo.png",
+    "sign_up": "https://www.hotforex.com/?refid=306235",
+    "login": "https://my.hotforex.com/login?next=%2Fen%2Fcentral%2Fmain.html"
+  },
+  {
+    "name": "Binary",
+    "logo_path": "/img/partners/binary-logo.png",
+    "sign_up": "https://record.binary.com/_YlIcsOOhbLIad7NeR55Oi2Nd7ZgqdRLk/1/",
+    "login": "https://oauth.binary.com/oauth2/authorize?app_id=1&amp;l=EN&amp;signup_device=desktop&amp;date_first_contact=2020-01-14"
+  },
+  {
+    "name": "XM",
+    "logo_path": "/img/partners/xm-broker-logo.png",
+    "sign_up": "https://clicks.pipaffiliates.com/c?c=463370&amp;l=en&amp;p=1",
+    "login": "https://my.xm.com/member/login"
+  },
+  {
+    "name": "Berry",
+    "logo_path": "/img/partners/berry-logo.png",
+    "sign_up": "http://bo.berrymarkets.com/client/register/5dc99eaf79739",
+    "login": "http://bo.berrymarkets.com/login"
+  }
+]

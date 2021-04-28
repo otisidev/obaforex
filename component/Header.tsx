@@ -76,10 +76,10 @@ export const Header = () => {
               <a href="#">Account</a>
               <ul className="nav-dropdown">
                 <li>
-                  <a href="/account/open-account">Open Account</a>
+                  <a href="#">Login</a>
                 </li>
                 <li>
-                  <a href="/account/fund-account">Fund Account</a>
+                  <a href="#">Create Account</a>
                 </li>
               </ul>
             </li>
@@ -90,6 +90,9 @@ export const Header = () => {
             </li>
             <li>
               <a href="/contact">Contact</a>
+            </li>
+            <li>
+              <a href="/faq">faq</a>
             </li>
           </ul>
         </div>

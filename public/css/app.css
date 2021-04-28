@@ -169,6 +169,10 @@ a:hover {
   text-decoration: double line-through;
 }
 
+.bg-dot-right {
+  background-image: url("/img/content/business/bg-map.png") !important;
+}
+
 @media screen and (max-width: 766px) {
   .part-img {
     margin-top: -3em !important;

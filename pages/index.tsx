@@ -204,10 +204,9 @@ const Home = () => {
 
         {/* More about Us : Our Mission, Vision and Strategies */}
         <div
-          className="section-block grey-bg jarallax"
+          className="section-block bg-dot-right grey-bg jarallax"
           data-jarallax
           data-speed="0.9"
-          style={{ backgroundImage: "url('img/content/business/bg-map.png')" }}
         >
           <div className="container">
             <div className="row">

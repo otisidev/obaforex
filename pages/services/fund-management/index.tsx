@@ -1,6 +1,8 @@
 import { Banner } from "../../../component/Banner";
 import { Layout } from "../../../component/Layout";
 import { Signal } from "../../../component/Signal";
+import fundMangementPlan from "../../../data/fundManagementPlan.json";
+import partners from "../../../data/partners.json";
 
 const fundManagement = () => {
   return (
@@ -62,143 +64,191 @@ const fundManagement = () => {
             {/* Plans */}
             <div className="col-12 col-lg-8">
               <div className="row">
-                {/* Bronze Plan  */}
-                <div className="col-xs-12 col-md-6 col-lg-6">
-                  <div className="testmonial-item-5 test-card2">
-                    <h5>Bronze Plan </h5>
-                    <div className="testmonial-item-5-text mb-3">
-                      <p>
-                        <strong className="prop">Returns: </strong>
-                        100% Returns monthly
-                      </p>
-                      <p>
-                        <strong className="prop">Risk: </strong>10% maximum draw
-                        down (Risk Exposure)
-                      </p>
-                      <p>
-                        <strong className="prop">Profit Sharing: </strong>
-                        50 - 50
-                      </p>
-                      <p>
-                        <strong className="prop">Withdrawal: </strong>
-                        Instant withdrawal
-                      </p>
-                      <p>
-                        <strong className="prop">Amount to Invest: </strong>
-                        <span style={{ fontSize: "24px" }}>$10,000</span>
-                      </p>
-                    </div>
-                    <div className="mt-20">
-                      <a href="#" className="button-primary button-md">
-                        Start Today
-                      </a>
+                {fundMangementPlan.map((plan, idx) => (
+                  <div key={idx} className="col-xs-12 col-md-6 col-lg-6">
+                    <div className="testmonial-item-5 test-card2">
+                      <h4>{plan?.name}</h4>
+                      <div className="pricing-section-price">
+                        <h3>
+                          <sup style={{ textDecoration: "none" }}>$</sup>
+                          {plan?.amount}
+                        </h3>
+                      </div>
+                      <div className="testmonial-item-5-text mb-3">
+                        <p>
+                          <strong className="prop">Returns: </strong>
+                          {plan?.returns}
+                        </p>
+                        <p>
+                          <strong className="prop">Risk: </strong>
+                          {plan?.risk}
+                        </p>
+                        <p>
+                          <strong className="prop">Profit Sharing: </strong>
+                          {plan?.profitSharing}
+                        </p>
+                        <p>
+                          <strong className="prop">Withdrawal: </strong>
+                          {plan?.withdrawal}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                {/* Gold Plan */}
-                <div className="col-xs-12 col-md-6 col-lg-6">
-                  <div className="testmonial-item-5 test-card2">
-                    <h5>Gold Plan</h5>
-                    <div className="testmonial-item-5-text mb-3">
-                      <p>
-                        <strong className="prop">Returns: </strong>
-                        100% Returns monthly
-                      </p>
-                      <p>
-                        <strong className="prop">Risk: </strong>10% maximum draw
-                        down (Risk Exposure)
-                      </p>
-                      <p>
-                        <strong className="prop">Profit Sharing: </strong>
-                        50 - 50
-                      </p>
-                      <p>
-                        <strong className="prop">Withdrawal: </strong>
-                        Instant withdrawal
-                      </p>
-                      <p>
-                        <strong className="prop">Amount to Invest: </strong>
-                        <span style={{ fontSize: "24px" }}>$25,000</span>
-                      </p>
-                    </div>
-                    <div className="mt-20">
-                      <a href="#" className="button-primary button-md">
-                        Start Today
-                      </a>
-                    </div>
-                  </div>
-                </div>
+      {/* Steps One */}
+      <div
+        className="section-block section-sm partners"
+        style={{ backgroundColor: "#fafafa" }}
+      >
+        <div className="container">
+          {/* Step One Title and Desc. */}
+          <div className="section-heading text-center mb-5">
+            <h3 className="semi-bold font-size-35">Step One</h3>
+            <div className="section-heading-line line-thin"></div>
+            <p>Register with one of our broker partner and fund your account</p>
+          </div>
 
-                {/* Diamond Plan */}
-                <div className="col-xs-12 col-md-6 col-lg-6">
-                  <div className="testmonial-item-5 test-card2">
-                    <h5>Diamond Plan</h5>
-                    <div className="testmonial-item-5-text mb-3">
-                      <p>
-                        <strong className="prop">Returns: </strong>
-                        100% Returns - Quarterly(3 Months)
-                      </p>
-                      <p>
-                        <strong className="prop">Risk: </strong>10% maximum draw
-                        down (Risk Exposure)
-                      </p>
-                      <p>
-                        <strong className="prop">Profit Sharing: </strong>
-                        40 - 60
-                      </p>
-                      <p>
-                        <strong className="prop">Withdrawal: </strong>
-                        Instant withdrawal
-                      </p>
-                      <p>
-                        <strong className="prop">Amount to Invest: </strong>
-                        <span style={{ fontSize: "24px" }}>$50,000</span>
-                      </p>
-                    </div>
-                    <div className="mt-20">
-                      <a href="#" className="button-primary button-md">
-                        Start Today
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Platinum Plan */}
-                <div className="col-xs-12 col-md-6 col-lg-6">
-                  <div className="testmonial-item-5 test-card2">
-                    <h5>Platinum Plan</h5>
-                    <div className="testmonial-item-5-text mb-3">
-                      <p>
-                        <strong className="prop">Returns: </strong>
-                        100% Returns - Quarterly(3 Months)
-                      </p>
-                      <p>
-                        <strong className="prop">Risk: </strong>20% maximum draw
-                        down (Risk Exposure)
-                      </p>
-                      <p>
-                        <strong className="prop">Profit Sharing: </strong>
-                        60 - 40
-                      </p>
-                      <p>
-                        <strong className="prop">Withdrawal: </strong>
-                        Instant withdrawal
-                      </p>
-                      <p>
-                        <strong className="prop">Amount to Invest: </strong>
-                        <span style={{ fontSize: "24px" }}>$100,000</span>
-                      </p>
-                    </div>
-                    <div className="mt-20">
-                      <a href="#" className="button-primary button-md">
-                        Start Today
-                      </a>
-                    </div>
+          {/* Step One Broker Partners */}
+          <div
+            className="owl-carousel owl-theme customizable-carousel mt-50"
+            data-loop="true"
+            data-items="4"
+            data-md-items="4"
+            data-sm-items="1"
+            data-xs-items="1"
+            data-space="15"
+            data-autoplay="true"
+            data-autospeed="4000"
+            data-nav-dots="true"
+            data-nav-arrows="false"
+          >
+            {partners.map((rec, idx) => (
+              <div key={idx} className="item shadow-p">
+                <div className="testmonial-item-5 test-card2">
+                  <img className="part-img" src={rec?.logo_path} alt="img" />
+                  <div className="text-center">
+                    <h4>{rec?.name}</h4>
+                    <a
+                      href={rec?.sign_up}
+                      target="_blank"
+                      className="button-primary button-md"
+                      style={{ marginTop: "20px" }}
+                    >
+                      Sign Up
+                    </a>
                   </div>
                 </div>
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Step Two */}
+      <div className="section-block section-sm border-bottom bg-dot-right">
+        <div className="container">
+          {/* Step Two Title and Desc. */}
+          <div className="section-heading text-center mb-5 pt-5">
+            <h3 className="semi-bold font-size-35">Step Two</h3>
+            <div className="section-heading-line line-thin"></div>
+            <p>
+              Create an account with Obaforex so we can manage your fx account
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              className="button-primary button-md"
+              style={{ marginTop: "20px" }}
+            >
+              Register With Us
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Step Three */}
+      <div className="section-block grey-bg background-shape-3 border-bottom">
+        <div className="container">
+          {/* Step Three Title and Desc. */}
+          <div className="section-heading text-center mb-5">
+            <h3 className="semi-bold font-size-35">Step Three</h3>
+            <div className="section-heading-line line-thin"></div>
+            <p>We manage your fx account and help you earn more money</p>
+          </div>
+
+          {/* Step Three Broker Partners */}
+          <div
+            className="owl-carousel owl-theme customizable-carousel mt-50"
+            data-loop="true"
+            data-items="4"
+            data-md-items="4"
+            data-sm-items="1"
+            data-xs-items="1"
+            data-space="15"
+            data-autoplay="true"
+            data-autospeed="4000"
+            data-nav-dots="true"
+            data-nav-arrows="false"
+          >
+            {partners.map((rec, idx) => (
+              <div key={idx} className="item shadow-p">
+                <div className="testmonial-item-5 test-card2">
+                  <img className="part-img" src={rec?.logo_path} alt="img" />
+                  <div className="text-center">
+                    <h4>{rec?.name}</h4>
+                    <a
+                      href={rec?.login}
+                      target="_blank"
+                      className="button-primary button-md"
+                      style={{ marginTop: "20px" }}
+                    >
+                      Login
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Step Four */}
+      <div className="section-block section-sm border-bottom bg-dot-right">
+        <div className="container">
+          {/* Step Four Title and Desc. */}
+          <div className="section-heading text-center mb-5 pt-5">
+            <h3 className="semi-bold font-size-35">Step Four</h3>
+            <div className="section-heading-line line-thin"></div>
+            <b>Share Profits With Obaforex</b>
+            <p>
+              Whenever you withdraw from your FX account that we manage, you are
+              going to send Obaforex 50% of the profit made on your account.
+            </p>
+            <p className="mt-5 text-primary">
+              <strong>PAY INTO OBAFOREX ACCOUNT BELOW</strong>
+            </p>
+
+            <p>
+              Account Name: <b>OBAFOREX GLOBAL TRADING</b>
+              <br />
+              Account Number: <b>0561605259</b>
+              <br />
+              Bank: <b>GTBank</b>
+            </p>
+            <a
+              href="/faq"
+              target="_blank"
+              className="button-primary button-md"
+              style={{ marginTop: "20px" }}
+            >
+              Have A Question? Click me
+            </a>
           </div>
         </div>
       </div>

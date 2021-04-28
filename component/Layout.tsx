@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Top } from "./Top";
+import { TradeViewTop } from "./TradeViewTop";
 
 export const Layout = ({ children, title }) => {
   return (
@@ -9,6 +10,10 @@ export const Layout = ({ children, title }) => {
       <Head>
         <title>{title}</title>
       </Head>
+
+      {/* Trade View Currency pair */}
+      <TradeViewTop />
+
       {/* Short contact info */}
       <Top />
 

@@ -23,28 +23,28 @@ export const Partners = () => {
           <div className="item">
             <img
               className="part-img"
-              src="img/partners/hotforex-logo.png"
+              src="/img/partners/hotforex-logo.png"
               alt="img"
             />
           </div>
           <div className="item">
             <img
               className="part-img"
-              src="img/partners/binary-logo.png"
+              src="/img/partners/binary-logo.png"
               alt="img"
             />
           </div>
           <div className="item">
             <img
               className="part-img"
-              src="img/partners/xm-broker-logo.png"
+              src="/img/partners/xm-broker-logo.png"
               alt="img"
             />
           </div>
           <div className="item">
             <img
               className="part-img"
-              src="img/partners/berry-logo.png"
+              src="/img/partners/berry-logo.png"
               alt="img"
             />
           </div>
