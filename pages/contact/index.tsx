@@ -63,8 +63,8 @@ const Contact = () => {
                   <div className="section-heading">
                     <h6>Help Desk</h6>
                     <p>
-                      Reach Us mt-5 on any of our contact information below.{" "}
-                      <br /> We are constantly at your service
+                      Reach Us on any of our contact information below. <br />{" "}
+                      We are constantly at your service
                     </p>
                   </div>
                 </div>
