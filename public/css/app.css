@@ -173,6 +173,22 @@ a:hover {
   background-image: url("/img/content/business/bg-map.png") !important;
 }
 
+#trade-container2 {
+  width: 100% !important;
+}
+
+#trade-container2 iframe {
+  width: 100% !important;
+}
+
+#trade-container3 {
+  width: 100% !important;
+}
+
+#trade-container3 iframe {
+  width: 100% !important;
+}
+
 @media screen and (max-width: 766px) {
   .part-img {
     margin-top: -3em !important;

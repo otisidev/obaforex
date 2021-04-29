@@ -12,10 +12,12 @@ export const Layout = ({ children, title }) => {
       </Head>
 
       {/* Trade View Currency pair */}
-      <TradeViewTop />
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Short contact info */}
-      <Top />
+      {/* <Top /> */}
 
       {/* Header with Navigation */}
       <Header />

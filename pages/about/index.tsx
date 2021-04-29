@@ -1,14 +1,13 @@
-import { useState } from "react";
 import { Banner } from "../../component/Banner";
 import { Chill } from "../../component/Chill";
 import { Layout } from "../../component/Layout";
 import { Partners } from "../../component/Partners";
+import { Slider } from "../../component/Slider";
 import { Team } from "../../component/Team";
 import moreAboutUs from "../../data/moreAboutUs.json";
 import trade_history from "../../data/trade_history.json";
 
 const About = () => {
-  const [activeHistory, SetActiveHistory] = useState<number>(0);
   return (
     <Layout title="About Us">
       {/* Banner */}
