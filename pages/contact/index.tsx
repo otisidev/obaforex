@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             {/* Contact us */}
-            <div className="col-md-4 col-sm-4 col-12">
+            <div className="col-md-4 col-12">
               <div className="section-heading">
                 <h6>Contact Us</h6>
                 <p className="semi-bold">
@@ -32,7 +32,7 @@ const Contact = () => {
             </div>
 
             {/* Message Form */}
-            <div className="col-md-8 col-sm-8 col-12">
+            <div className="col-md-8 col-12">
               <div className="section-heading">
                 <h6 className="semi-bold">Write us a message</h6>
               </div>
