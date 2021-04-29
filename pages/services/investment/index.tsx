@@ -55,7 +55,7 @@ const Investment = () => {
                 <div key={idx} className="col-xs-12 col-md-6 mt-2">
                   <div className="contact-icon-box callback-block p-5">
                     <div className="testmonial-box-icon numb">{idx + 1}</div>
-                    <div className="testmonial-box-content">
+                    <div className="testmonial-box-content text-left">
                       <h3>{rec?.title}</h3>
                       <p>{rec?.desc}</p>
                     </div>
