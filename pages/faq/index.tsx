@@ -1,6 +1,7 @@
 import { Banner } from "../../component/Banner";
 import { Layout } from "../../component/Layout";
 import { Chill } from "../../component/Chill";
+import faq from "../../data/faq.json";
 
 const FAQ = () => {
   return (
@@ -21,9 +22,44 @@ const FAQ = () => {
               We are here to meet your every need. Check through our collection
               of questions and thier corresponding answers.
               <br />
-              We are always available to answer any question that is not
-              captured below
+              We are always available to answer any of your questions that is
+              not captured below
             </p>
+          </div>
+
+          {/* Accordions */}
+          <div id="accordion" role="tablist" className="mt-15">
+            {faq.map((rec, idx) => (
+              <div className="card card-primary">
+                <div
+                  className="card-header card-header-primary"
+                  role="tab"
+                  id={`tab${idx}`}
+                >
+                  <a
+                    className="collapsed"
+                    data-toggle="collapse"
+                    href={`#collapse${idx}`}
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                    style={{ fontSize: "18px" }}
+                  >
+                    {rec?.title}
+                  </a>
+                </div>
+                <div
+                  id={`collapse${idx}`}
+                  className="collapse"
+                  role="tabpanel"
+                  aria-labelledby={`tab${idx}`}
+                  data-parent="#accordion"
+                >
+                  <div className="card-body card-body-primary">
+                    <p>{rec?.desc}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
