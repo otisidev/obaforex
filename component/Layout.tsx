@@ -17,7 +17,7 @@ export const Layout = ({ children, title }) => {
       </div>
 
       {/* Short contact info */}
-      {/* <Top /> */}
+      <Top />
 
       {/* Header with Navigation */}
       <Header />
