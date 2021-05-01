@@ -15,7 +15,7 @@ export const Layout = ({ children, title }) => {
       <div id="top-bar">
         <TradeViewTop />
       </div>
-
+      <div></div>
       {/* Short contact info */}
       <Top />
 
