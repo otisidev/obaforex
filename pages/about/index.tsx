@@ -4,7 +4,8 @@ import { Layout } from "../../component/Layout";
 import { Partners } from "../../component/Partners";
 import { Team } from "../../component/Team";
 import moreAboutUs from "../../data/moreAboutUs.json";
-import trade_history from "../../data/trade_history.json";
+import trade_history from "../../data/tradeHistory.json";
+import how_it_works from "../../data/howItWorks.json";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       {/* Banner */}
       <Banner page="About Us" />
 
-      {/* About Obaforex */}
+      {/* We Trade. We Manage. We Train. We Signal */}
       <div className="section-block">
         <div className="container">
           <div className="row">
@@ -182,12 +183,12 @@ const About = () => {
                 </div>
                 <div
                   id={`collapse${idx}`}
-                  className="collapse"
+                  className={`collapse ${idx === 0 ? "show" : ""}`}
                   role="tabpanel"
                   aria-labelledby={`tab${idx}`}
                   data-parent="#accordion"
                 >
-                  <div className="card-body card-body-primary">
+                  <div className="card-body card-body-primary mt-5 pt-5">
                     <div className="row">
                       <div className="col-md-6 col-12">
                         <img
@@ -232,71 +233,25 @@ const About = () => {
             <p>Three simple steps to financial freedom</p>
           </div>
           <div className="row">
-            {/* Create Account */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card">
-                <div className="testmonial-item-5-img numb-sm">
-                  <h2 className="text-primary mt-2">1</h2>
-                </div>
-                <div className="testmonial-item-5-name">
-                  <h4>Create An Account</h4>
-                </div>
-                <div className="testmonial-item-5-text mb-3">
-                  <p className="text-center">
-                    Start your journey by registering with us
-                  </p>
-                </div>
-                <div className="text-center mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Start Today
-                  </a>
+            {how_it_works.map((rec, idx) => (
+              <div key={idx} className="col-xs-12 col-md-6 col-lg-4">
+                <div
+                  className="contact-icon-box callback-block p-5"
+                  style={{ background: rec?.bg }}
+                >
+                  <div className="testmonial-box-icon numb">{idx + 1}</div>
+                  <div className="testmonial-box-content">
+                    <h3>{rec?.title}</h3>
+                    <p>{rec?.desc}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            {/* Fund Your Account */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card">
-                <div className="testmonial-item-5-img numb-sm">
-                  <h2 className="text-primary mt-2">2</h2>
-                </div>
-                <div className="testmonial-item-5-name">
-                  <h4>Choose A Service</h4>
-                </div>
-                <div className="testmonial-item-5-text mb-3">
-                  <p className="text-center">
-                    Choose one of our amazing services
-                  </p>
-                </div>
-                <div className="text-center mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Start Today
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* See Result */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card">
-                <div className="testmonial-item-5-img numb-sm">
-                  <h2 className="text-primary mt-2">3</h2>
-                </div>
-                <div className="testmonial-item-5-name">
-                  <h4>See Result</h4>
-                </div>
-                <div className="testmonial-item-5-text mb-3">
-                  <p className="text-center">
-                    Relax, chill and enjoy financial freedom.
-                  </p>
-                </div>
-                <div className="text-center mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Join Us
-                  </a>
-                </div>
-              </div>
-            </div>
+            ))}
+          </div>
+          <div className="col-12 text-center" style={{ marginTop: "40px" }}>
+            <a href="#" className="button-primary button-md">
+              Start Today
+            </a>
           </div>
         </div>
       </div>
@@ -324,7 +279,14 @@ const About = () => {
               data-nav-arrows="false"
             >
               {trade_history.map((rec, idx) => (
-                <div key={idx} className="team-box-3">
+                <div
+                  key={idx}
+                  className="team-box-3"
+                  style={{
+                    border: "1px solid lightgrey",
+                    borderRadius: "10px",
+                  }}
+                >
                   <div className="video-video-box full-width">
                     <img
                       src={rec}

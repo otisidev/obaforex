@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Create An Account",
+    "desc": "Start your journey by registering with us",
+    "bg": "aliceblue"
+  },
+  {
+    "title": "Choose A Service",
+    "desc": "Choose one of our amazing services",
+    "bg": "#6bbd7b33"
+  },
+  {
+    "title": "See Result",
+    "desc": "Relax, chill and enjoy financial freedom",
+    "bg": "#4b008212"
+  }
+]

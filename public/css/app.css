@@ -318,6 +318,12 @@ a:hover {
   border: 0 !important;
 }
 
+.card-header {
+  border: 1px solid lightgrey !important;
+  padding: 20px !important;
+  background: #f6f5f5 !important;
+}
+
 @media screen and (max-width: 766px) {
   .section-heading h3 {
     color: #122a69 !important;

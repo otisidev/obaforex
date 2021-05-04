@@ -27,7 +27,7 @@ export const Team = () => {
               <div
                 key={idx}
                 className="team-box-3"
-                style={{ border: "2px solid #122a69" }}
+                style={{ border: "2px solid lightgrey" }}
               >
                 <img src={rec?.img_path} alt="team" />
                 <div className="team-box-3-info">
