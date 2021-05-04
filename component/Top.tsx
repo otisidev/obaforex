@@ -9,10 +9,14 @@ export const Top = () => {
           <div></div>
         </div>
       </div>
-      <div id="top-bar" className="hidden-md-down">
-        <div className="container">
+      <div
+        id="top-bar"
+        className="hidden-md-down bg-secondary"
+        style={{ border: "none", padding: "none" }}
+      >
+        <div className="bg-secondary">
           <div className="row">
-            <div className="col-md-9 col-12">
+            <div className="col-md-9 col-12 bg-secondary">
               <ul className="top-bar-info">
                 <li>
                   <i className="fas fa-clock"></i>Open Hours: Mon - Fri, 8:00AM
@@ -27,7 +31,7 @@ export const Top = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3 col-12">
+            <div className="col-md-3 col-12 bg-primary text-center">
               <ul className="social-icons hidden-sm">
                 <li>
                   <a href="https://web.facebook.com/Obaforexglobal">

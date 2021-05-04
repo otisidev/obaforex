@@ -1,26 +1,32 @@
 [
   {
     "title": "We know WHAT to trade",
-    "desc": "With a team of dedicated experts, we know the right commodity to trade for our clients"
+    "desc": "With a team of dedicated experts, we know the right commodity to trade for our clients",
+    "bg": "#ff000012"
   },
   {
     "title": "We know WHEN to trade",
-    "desc": "We have good understanding of times and seasons. We are 24/7 committed to success"
+    "desc": "We have good understanding of times and seasons. We are 24/7 committed to success",
+    "bg": "#00800021"
   },
   {
     "title": "We know WHERE to trade",
-    "desc": "We help our clients make the best decisions with the help of our powerful AI systems"
+    "desc": "We help our clients make the best decisions with the help of our powerful AI systems",
+    "bg": "#ffa5002b"
   },
   {
     "title": "We know HOW to trade",
-    "desc": "We've got the right strategise in place, all our clients are assured of amazing results"
+    "desc": "We've got the right strategise in place, all our clients are assured of amazing results",
+    "bg": "aliceblue"
   },
   {
     "title": "We Are CAC Certified Company",
-    "desc": "We have achieved CAC RC:3005196 certification. NDIC and SEC in process"
+    "desc": "We have achieved CAC RC:3005196 certification. NDIC and SEC in process",
+    "bg": "#6bbd7b33"
   },
   {
     "title": "We Are Obaforex!",
-    "desc": "We are the leading Global Forex trading company. Become part of what we do."
+    "desc": "We are the leading Global Forex trading company. Become part of what we do.",
+    "bg": "#4b008212"
   }
 ]

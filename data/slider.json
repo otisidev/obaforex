@@ -3,22 +3,34 @@
     "img_path": "img/slider/slider1.png",
     "title": "Obaforex Global Trading Ltd",
     "desc": [
-      "Welcome to Obaforex Global Trading Ltd,",
-      "a global foreign currency and investment company tailored to meet your individual needs"
-    ]
+      "Welcome to Obaforex Global Trading Ltd, a global foreign currency ",
+      "and investment company tailored to meet your individual needs"
+    ],
+    "url1": "/services",
+    "btn_text1": "Our Services",
+    "url2": "#",
+    "btn_text2": "Let's Chat"
   },
   {
     "img_path": "img/slider/slider2.png",
-    "title": "Forex Training",
+    "title": "Forex Training With Obaforex",
     "desc": [
       "Come get trained by experts on how to gain financial freedom",
       "Available Online and Offline"
-    ]
+    ],
+    "url1": "",
+    "btn_text1": "Apply Now",
+    "url2": "/faq",
+    "btn_text2": "Have a Question?"
   },
   {
     "img_path": "img/slider/slider3.png",
     "title": "Forex Account Management",
-    "desc": ["We manage and grow your Forex Account for you"]
+    "desc": ["We manage and grow your Forex Account for you"],
+    "url1": "/services/fund-management",
+    "btn_text1": "Register Here",
+    "url2": "",
+    "btn_text2": ""
   },
   {
     "img_path": "img/slider/slider4.png",
@@ -26,19 +38,33 @@
     "desc": [
       "You are assured of 25% ROI of your Investment Capital for TWELVE MONTHS",
       "when you invest with Obaforex. We keep our promises"
-    ]
+    ],
+    "url1": "",
+    "btn_text1": "Register Now",
+    "url2": "/faq",
+    "btn_text2": "Have a Question?"
   },
   {
     "img_path": "img/slider/slider5.png",
-    "title": "Refer a Person",
+    "title": "Refer a Person and Win",
     "desc": [
       "Stand the change of winning great gifts in the company",
       " when you refer someone"
-    ]
+    ],
+    "url1": "",
+    "btn_text1": "Join Us",
+    "url2": "/faq",
+    "btn_text2": "Have a Question?"
   },
   {
     "img_path": "img/slider/slider6.png",
-    "title": "Obaforex Copy Trade",
-    "desc": ["Signup for our Copy trade and follow the King of trading himself"]
+    "title": "Obaforex Reliable Copy Trade",
+    "desc": [
+      "Signup for our Copy trade and follow the King of trading himself"
+    ],
+    "url1": "/services/copy-trade",
+    "btn_text1": "Follow The king",
+    "url2": "/faq",
+    "btn_text2": "Have a Question?"
   }
 ]

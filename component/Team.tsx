@@ -24,7 +24,11 @@ export const Team = () => {
             data-nav-arrows="false"
           >
             {team.map((rec, idx) => (
-              <div key={idx} className="team-box-3">
+              <div
+                key={idx}
+                className="team-box-3"
+                style={{ border: "2px solid #122a69" }}
+              >
                 <img src={rec?.img_path} alt="team" />
                 <div className="team-box-3-info">
                   <h4>{rec?.name}</h4>

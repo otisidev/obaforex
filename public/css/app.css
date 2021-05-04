@@ -2,39 +2,47 @@ p {
   color: #666666 !important;
 }
 .text-primary {
-  color: #1652f0 !important;
+  color: #122a69 !important;
 }
 
 .text-secondary {
-  color: #bb712a !important;
+  color: crimson !important;
+}
+
+.bg-primary {
+  background-color: #122a69 !important;
+}
+
+.bg-secondary {
+  background-color: crimson !important;
 }
 
 .button-primary,
 .section-heading-line {
-  background: #1652f0;
+  background: #122a69;
 }
 
 .service-block-content-button {
-  background: #1652f0;
-  border-color: #1652f0;
+  background: #122a69;
+  border-color: #122a69;
 }
 a:hover {
-  color: #bb712a !important;
+  color: crimson !important;
 }
 
 .contact-icon-box i,
 .primary-list li i {
-  color: #1652f0;
+  color: #122a69;
 }
 .service-block:hover .service-block-content-button i {
-  color: #1652f0;
+  color: #122a69;
 }
 
 .service-block-content-button:hover i {
-  color: #1652f0 !important;
+  color: #122a69 !important;
 }
 .text-left .section-heading-line {
-  background: #1652f0;
+  background: #122a69;
 }
 
 .top-bar-info li {
@@ -42,7 +50,7 @@ a:hover {
 }
 
 .numb {
-  background: #1652f0;
+  background: #122a69;
   color: white;
   font-size: 30px;
   font-weight: bold;
@@ -77,7 +85,7 @@ a:hover {
 }
 
 .custom-dot.active span {
-  background: #1652f0 !important;
+  background: #122a69 !important;
 }
 
 .section-block-parallax {
@@ -90,11 +98,11 @@ a:hover {
 }
 
 .socials a i:hover {
-  color: #1652f0 !important;
+  color: #122a69 !important;
 }
 
 .breadcrumb-section {
-  background-image: url("/img/banner-main.png") !important;
+  background-image: url("/img/banner.png") !important;
 }
 
 .numb-sm {
@@ -127,11 +135,11 @@ a:hover {
 }
 
 .pricing-section-price h2 {
-  color: #1652f0 !important;
+  color: #122a69 !important;
 }
 
 .pricing-section-advanced {
-  background-color: #1652f00d !important;
+  background-color: #122a690d !important;
 }
 
 .pricing-section {
@@ -143,7 +151,7 @@ a:hover {
 }
 
 .pricing-section-price h2 sup {
-  color: #bb712a !important;
+  color: crimson !important;
 }
 
 .bg-white {
@@ -159,12 +167,12 @@ a:hover {
 }
 
 .pricing-section-price h3 {
-  color: #1652f0 !important;
+  color: #122a69 !important;
   font-weight: bold !important;
 }
 
 .pricing-section-price h3 sup {
-  color: #bb712a !important;
+  color: crimson !important;
   font-weight: bold !important;
   text-decoration: double line-through;
 }
@@ -190,11 +198,130 @@ a:hover {
 }
 
 .contact-icon {
-  color: #bb712a !important;
+  color: crimson !important;
   margin-right: 20px !important;
 }
 
+.contact-icon-box i {
+  height: 100px !important;
+}
+
+.social-icons li:last-child {
+  border: none !important;
+}
+
+.social-icons li {
+  border: none !important;
+}
+
+.top-bar-info,
+.top-bar-info li i,
+.social-icons > li > a > i {
+  color: white !important;
+}
+
+.top-bar-info li {
+  border: none !important;
+}
+
+.section-heading h3 {
+  color: #122a69 !important;
+}
+
+.section-heading-line {
+  background-color: crimson !important;
+}
+
+.social-icons {
+  float: none !important;
+}
+
+.section-heading h4 {
+  color: #122a69 !important;
+}
+
+.contact-icon-box {
+  border-radius: 50px !important;
+  border: 1px solid #e0e0e0 !important;
+  margin-bottom: 15px !important;
+}
+.primary-list li i {
+  color: crimson !important;
+}
+
+.mission {
+  border-radius: 0 !important;
+  border: none !important;
+  border-top: 1px solid lightgrey !important;
+}
+
+.service-block div h4 {
+  color: #122a69 !important;
+}
+
+.icon-sm {
+  float: left !important;
+}
+
+.icon-text {
+  display: inline-block !important;
+  width: 80% !important;
+  font-weight: bold !important;
+  line-height: 1.5;
+}
+
+.btn-slider {
+  background-color: crimson !important;
+  color: white !important;
+  border-radius: 5px !important;
+  height: 50px !important;
+  line-height: 3 !important;
+}
+
+.btn-slider2 {
+  background-color: transparent !important;
+  color: white !important;
+  border-radius: 5px !important;
+  height: 50px !important;
+  line-height: 3 !important;
+  border: 2px solid white !important;
+}
+
+.btn-slider:hover {
+  background-color: #122a69 !important;
+  color: white !important;
+  transition: all 0.2s ease-in !important;
+}
+
+.btn-slider2:hover {
+  background-color: #122a69 !important;
+  color: white !important;
+  transition: all 0.2s ease-in !important;
+  border: 2px solid #122a69 !important;
+}
+
+.rev-btn {
+  background-color: transparent !important;
+}
+
+.btn-found {
+  background-color: crimson !important;
+  color: white !important;
+  border-radius: 5px !important;
+  height: 50px !important;
+  border: 0 !important;
+}
+
+.btn-found:hover {
+  background-color: white !important;
+  color: crimson !important;
+  border: 0 !important;
+}
+
 @media screen and (max-width: 766px) {
+  .section-heading h3 {
+    color: #122a69 !important;
+  }
   .part-img {
     margin-top: -3em !important;
   }

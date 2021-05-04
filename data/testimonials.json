@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ebuka Benjamin",
+    "img": "/img/testimonials/1.jpg",
+    "designation": "Business Man",
+    "testimony": "I am super grateful for the services rendered by Obaforex Global Trading Ltd, they managed my account in an amazing way.",
+    "bg": "#00800021"
+  },
+  {
+    "name": "Mariam Kabir",
+    "img": "/img/testimonials/2.jpg",
+    "designation": "Student",
+    "testimony": "I invested my money with Obaforex, and within a month, the amount I got as interest blew my mind. Thanks for you do guys.",
+    "bg": "#ff000012"
+  },
+  {
+    "name": "Tayo Emmanuel",
+    "img": "/img/testimonials/3.jpg",
+    "designation": "Designer",
+    "testimony": "Omo this na baba, i dont know how you guys are making it possible but keep the good work, we got you Obaforex,..i die here!",
+    "bg": "aliceblue"
+  }
+]

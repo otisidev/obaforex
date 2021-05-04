@@ -1,0 +1,20 @@
+[
+  {
+    "img": "/img/content/services/value-img-1.png",
+    "title": "Result-Driven",
+    "desc": "We are result oriented and we believe you are too",
+    "bg": "antiquewhite"
+  },
+  {
+    "img": "/img/content/services/value-img-2.png",
+    "title": "Reliable",
+    "desc": "We are Obaforex for a reason, we keep our promises",
+    "bg": "#ffcccc"
+  },
+  {
+    "img": "/img/content/services/value-img-3.png",
+    "title": "Responsive",
+    "desc": "We are responsive to your ever-changing needs",
+    "bg": "#d2f1f4"
+  }
+]

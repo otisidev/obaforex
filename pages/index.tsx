@@ -3,6 +3,8 @@ import { Partners } from "../component/Partners";
 import { Slider } from "../component/Slider";
 import { Chill } from "../component/Chill";
 import chooseUs from "../data/chooseUs.json";
+import ourStrength from "../data/ourStrength.json";
+import testimonials from "../data/testimonials.json";
 
 const Home = () => {
   return (
@@ -26,47 +28,23 @@ const Home = () => {
             </div>
 
             <div className="row mt-30">
-              {/* Result Driven */}
-              <div className="col-md-4 col-sm-12 col-12">
-                <div className="service-block">
-                  <img src="img/content/services/value-img-1.png" alt="img" />
-                  <div className="service-block-content">
-                    <h4>Result-Driven</h4>
-                    <p>We are result oriented and we believe you are too</p>
-                    <a href="#" className="service-block-content-button">
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
+              {ourStrength.map((rec, idx) => (
+                <div key={idx} className="col-md-4 col-sm-12 col-12">
+                  <div className="service-block">
+                    <img src={rec?.img} alt="img" />
+                    <div
+                      className="service-block-content"
+                      style={{ background: rec?.bg }}
+                    >
+                      <h4>{rec?.title}</h4>
+                      <p>{rec?.desc}</p>
+                      <a href="#" className="service-block-content-button">
+                        <i className="fas fa-arrow-right"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              {/* Reliable */}
-              <div className="col-md-4 col-sm-12 col-12">
-                <div className="service-block">
-                  <img src="img/content/services/value-img-2.png" alt="img" />
-                  <div className="service-block-content">
-                    <h4>Reliable</h4>
-                    <p>We are Obaforex for a reason, we keep our promises</p>
-                    <a href="#" className="service-block-content-button">
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Responsive */}
-              <div className="col-md-4 col-sm-12 col-12">
-                <div className="service-block">
-                  <img src="img/content/services/value-img-3.png" alt="img" />
-                  <div className="service-block-content">
-                    <h4>Responsive</h4>
-                    <p>We are responsive to your ever-changing needs</p>
-                    <a href="#" className="service-block-content-button">
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
@@ -95,31 +73,52 @@ const Home = () => {
                   <div className="col-sm-6 col-md-6">
                     <ul className="primary-list mt-20">
                       <li>
-                        <i className="fas fa-check-circle"></i>We help manage
-                        your forex account
+                        <div className="icon-sm">
+                          <i className="fas fa-check-circle"></i>
+                        </div>
+                        <div className="icon-text">
+                          We help manage your forex account
+                        </div>
                       </li>
                       <li>
-                        <i className="fas fa-check-circle"></i>We give you
-                        accurate signals
+                        <div className="icon-sm">
+                          <i className="fas fa-check-circle"></i>
+                        </div>
+                        <div className="icon-text">
+                          We give you accurate signals
+                        </div>
                       </li>
                       <li>
-                        <i className="fas fa-check-circle"></i>We train on Forex
+                        <div className="icon-sm">
+                          <i className="fas fa-check-circle"></i>
+                        </div>
+                        <div className="icon-text">We train on Forex</div>
                       </li>
                     </ul>
                   </div>
                   <div className="col-sm-6 col-md-6">
                     <ul className="primary-list mt-20">
                       <li>
-                        <i className="fas fa-check-circle"></i>We provide
-                        partnership
+                        <div className="icon-sm">
+                          <i className="fas fa-check-circle"></i>
+                        </div>
+                        <div className="icon-text">We provide partnership</div>
                       </li>
                       <li>
-                        <i className="fas fa-check-circle"></i>We trade, you
-                        invest and earn
+                        <div className="icon-sm">
+                          <i className="fas fa-check-circle"></i>
+                        </div>
+                        <div className="icon-text">
+                          We trade, you invest and earn
+                        </div>
                       </li>
                       <li>
-                        <i className="fas fa-check-circle"></i>We support you
-                        all the way
+                        <div className="icon-sm">
+                          <i className="fas fa-check-circle"></i>
+                        </div>
+                        <div className="icon-text">
+                          We support you all the way
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -185,7 +184,10 @@ const Home = () => {
                 <div className="row">
                   {chooseUs.map((rec, idx) => (
                     <div key={idx} className="col-xs-12 col-md-6 mt-2">
-                      <div className="contact-icon-box callback-block p-5">
+                      <div
+                        className="contact-icon-box callback-block p-5"
+                        style={{ background: rec?.bg }}
+                      >
                         <div className="testmonial-box-icon numb">
                           {idx + 1}
                         </div>
@@ -246,6 +248,7 @@ const Home = () => {
               {/* Text Section */}
               <div className="col-md-6 col-sm-12 col-12">
                 <div className="pl-45-md">
+                  {/* Title and Description */}
                   <div className="section-heading">
                     <h3 className="semi-bold">More About Us</h3>
                     <p>
@@ -254,8 +257,8 @@ const Home = () => {
                     </p>
                   </div>
                   <div>
-                    <div className="contact-icon-box">
-                      <i className="icon-phone-book"></i>
+                    <div className="contact-icon-box mission">
+                      <i className="fab fa-telegram-plane"></i>
                       <h4>Our Mission</h4>
                       <h5>
                         To provide education and tools in order to improve
@@ -263,16 +266,16 @@ const Home = () => {
                         significant change in their economy.
                       </h5>
                     </div>
-                    <div className="contact-icon-box">
-                      <i className="icon-opened-email-outlined-interface-symbol"></i>
+                    <div className="contact-icon-box mission">
+                      <i className="fas fa-video"></i>
                       <h4>Our Vision</h4>
                       <h5>
                         Simplifying worldwide trading and maximizing Africa's
                         investment opportunity.
                       </h5>
                     </div>
-                    <div className="contact-icon-box">
-                      <i className="icon-location"></i>
+                    <div className="contact-icon-box mission">
+                      <i className="fas fa-book"></i>
                       <h4>Our Strategies</h4>
                       <h5>
                         Integrity and transparency are the values that define
@@ -281,6 +284,44 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Testimonials */}
+        <div className="section-block">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h3 className="semi-bold">Our Testmonials</h3>
+              <div className="section-heading-line"></div>
+              <p>View the Testimonials of few of Our Investors</p>
+            </div>
+            <div className="row">
+              <div className="owl-carousel owl-theme testmonials-carousel">
+                {testimonials.map((rec, idx) => (
+                  <div
+                    key={idx}
+                    className="testmonial-box"
+                    style={{ background: rec?.bg }}
+                  >
+                    <div className="testmonial-box-icon">
+                      <img src={rec?.img} alt="img" />
+                    </div>
+                    <div className="testmonial-box-content">
+                      <h3>{rec?.name}</h3>
+                      <strong>{rec?.designation}</strong>
+                      <p>{rec?.testimony}</p>
+                      <div className="stars">
+                        <i className="fa fa-star"></i>
+                        <i className="fa fa-star"></i>
+                        <i className="fa fa-star"></i>
+                        <i className="fa fa-star"></i>
+                        <i className="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -300,7 +341,10 @@ const Home = () => {
               <div className="section-heading-line"></div>
             </div>
             <div className="mt-25 text-center">
-              <a href="#" className="button-md button-white-bordered mt-10">
+              <a
+                href="#"
+                className="button-md button-white-bordered btn-found mt-10"
+              >
                 Join Us
               </a>
             </div>
