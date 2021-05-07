@@ -41,34 +41,38 @@ const ForexStrategy = () => {
             {/* Strategies */}
             <div className="row  pt-5">
               {strategyInfo.map((info, idx) => (
-                <div
-                  key={idx}
-                  className="col-md-6 col-sm-12 col-lg-3 col-12 wow fadeInLeftSm"
-                  data-wow-delay="0.9s"
-                >
-                  <div className="pricing-section pricing-section-advanced shadow-primary">
-                    <div className="pricing-section-price">
-                      <h4>{info?.name}</h4>
-                      <h3>
-                        <sup>N</sup>
-                        {info?.amount}
-                      </h3>
-                    </div>
-                    <ul>
-                      {info?.list?.map((li, idx) => (
-                        <li key={idx}>{li}</li>
-                      ))}
-                    </ul>
-
-                    <a
-                      href={`../strategy-payment/${info.id}`}
-                      className="button-primary button-md"
-                      style={{ marginTop: "40px" }}
+                <>
+                  {idx + 1 != strategyInfo.length && (
+                    <div
+                      key={idx}
+                      className="col-md-6 col-sm-12 col-lg-3 col-12 wow fadeInLeftSm"
+                      data-wow-delay="0.9s"
                     >
-                      Get Strategy
-                    </a>
-                  </div>
-                </div>
+                      <div className="pricing-section pricing-section-advanced shadow-primary">
+                        <div className="pricing-section-price">
+                          <h4>{info?.name}</h4>
+                          <h3>
+                            <sup>N</sup>
+                            {info?.amount}
+                          </h3>
+                        </div>
+                        <ul>
+                          {info?.list?.map((li, idx) => (
+                            <li key={idx}>{li}</li>
+                          ))}
+                        </ul>
+
+                        <a
+                          href={`../strategy-payment/${info.id}`}
+                          className="button-primary button-md"
+                          style={{ marginTop: "40px" }}
+                        >
+                          Get Strategy
+                        </a>
+                      </div>
+                    </div>
+                  )}
+                </>
               ))}
             </div>
           </div>

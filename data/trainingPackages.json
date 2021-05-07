@@ -5,7 +5,7 @@
     "period": "Two Days (2days)",
     "duration": "Two hours (2hrs)",
     "requirements": "Laptop / Smart Devices, Internet connection",
-    "bg_color": "#f9dce2"
+    "bg_color": "#e4f0e4"
   },
   {
     "title": "Intermediate Class",
@@ -13,7 +13,7 @@
     "period": "One Month (1Mnth, 3 times a week) (2days)",
     "duration": "Two hours (2hrs)",
     "requirements": "Laptop / Smart Devices, Internet connection",
-    "bg_color": "azure"
+    "bg_color": "#e4f0e4"
   },
   {
     "title": "Professional Class",
@@ -29,7 +29,7 @@
     "period": "One Week (1Wk, Every day) (2days)",
     "duration": "Two hours (2hrs)",
     "requirements": "Trading Account, Laptop / Smart Devices, Internet connection, Minimum balance of $500",
-    "bg_color": "beige"
+    "bg_color": "#e4f0e4"
   },
   {
     "title": "Binary Class",
@@ -37,6 +37,6 @@
     "period": "One Week (1Wk, Every day) (2days)",
     "duration": "Two hours (2hrs)",
     "requirements": "Trading Account, Laptop / Smart Devices, Internet connection, Minimum balance of $500",
-    "bg_color": "aliceblue"
+    "bg_color": "#e4f0e4"
   }
 ]

@@ -39,7 +39,7 @@ const CopyTrade = () => {
 
       {/* Because We Have All It Takes */}
       <div
-        className="section-block grey-bg background-shape-3"
+        className="section-block grey-bg background-shape-3 border-bottom"
         style={{ marginTop: "-60px" }}
       >
         <div className="container">
@@ -85,32 +85,56 @@ const CopyTrade = () => {
                     <div className="col-sm-6 col-md-6">
                       <ul className="primary-list mt-20">
                         <li>
-                          <i className="fas fa-check-circle"></i>Enjoy fast
-                          order execution.
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            Enjoy fast order execution.
+                          </div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>Invest and
-                          withdraw funds quickly and securely
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            Invest and withdraw funds quickly and securely
+                          </div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>You don’t have
-                          to be an expert in Forex.
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            You don’t have to be an expert in Forex.
+                          </div>
                         </li>
                       </ul>
                     </div>
                     <div className="col-sm-6 col-md-6">
                       <ul className="primary-list mt-20">
                         <li>
-                          <i className="fas fa-check-circle"></i>Keep everything
-                          under your control.
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            Keep everything under your control.
+                          </div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>Set it running
-                          in a few quick steps.
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            Set it running in a few quick steps.
+                          </div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>Stable income
-                          from a diversified portfolio.
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            Stable income from a diversified portfolio.
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -122,7 +146,7 @@ const CopyTrade = () => {
         </div>
       </div>
 
-      <Copy />
+      <Copy bgColor="bg-white" />
     </Layout>
   );
 };
