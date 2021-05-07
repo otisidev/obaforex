@@ -1,18 +1,22 @@
 [
   {
     "title": "We've Got Experts",
-    "desc": "We have on our team the best forex traders who have proven to be experts in disseminating the knowledge they have"
+    "desc": "We have on our team the best forex traders who have proven to be experts in disseminating the knowledge they have",
+    "bg_color": "#ff000012"
   },
   {
     "title": "Good Options",
-    "desc": "We have a wide range of training packages you can choose from depending on your needs"
+    "desc": "We have a wide range of training packages you can choose from depending on your needs",
+    "bg_color": "#00800021"
   },
   {
     "title": "We've Got Experience",
-    "desc": "We have been trading forex for 10 years, we know a lot."
+    "desc": "We have been trading forex for 10 years, we know a lot.",
+    "bg_color": "#ffa5002b"
   },
   {
     "title": "Offline and Online Training",
-    "desc": "Distance is not a bareer. Join us from anywhere and get to be trained by our experts"
+    "desc": "Distance is not a bareer. Join us from anywhere and get to be trained by our experts",
+    "bg_color": "aliceblue"
   }
 ]

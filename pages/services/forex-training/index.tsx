@@ -2,6 +2,7 @@ import { Banner } from "../../../component/Banner";
 import { JoinUs } from "../../../component/JoinUs";
 import { Layout } from "../../../component/Layout";
 import WhyTrain from "../../../data/whyTrain.json";
+import trainingPackages from "../../../data/trainingPackages.json";
 
 const forexTraining = () => {
   return (
@@ -27,165 +28,45 @@ const forexTraining = () => {
             </p>
           </div>
 
-          <div className="row">
-            {/* Training Image */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <img
-                src="/img/training.png"
-                alt=""
-                className="shadow-primary"
-                style={{ marginTop: "15px", borderRadius: "10px" }}
-              />
-            </div>
-
-            {/* Beginner Class */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card2">
-                <h5>Beginner Class</h5>
-                <div className="testmonial-item-5-text mb-3">
-                  <p>
-                    <strong className="prop">Cost: </strong>
-                    <span className="text-success" style={{ fontSize: "24px" }}>
-                      Free
-                    </span>
-                  </p>
-                  <p>
-                    <strong className="prop">Period: </strong>Two Days (2days)
-                  </p>
-                  <p>
-                    <strong className="prop">Duration: </strong>Two hours (2hrs)
-                  </p>
-                  <p>
-                    <strong className="prop">Requirement: </strong>
-                    Laptop / Smart Devices, Internet connection
-                  </p>
-                </div>
-                <div className="mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Start Today
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Intermediate Class */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card2">
-                <h5>Intermediate Class</h5>
-                <div className="testmonial-item-5-text mb-3">
-                  <p>
-                    <strong className="prop">Cost: </strong>
-                    <span style={{ fontSize: "24px" }}>$250</span>
-                  </p>
-                  <p>
-                    <strong className="prop">Period: </strong>One Month (1Mnth,
-                    3 times a week) (2days)
-                  </p>
-                  <p>
-                    <strong className="prop">Duration: </strong>Two hours (2hrs)
-                  </p>
-                  <p>
-                    <strong className="prop">Requirement: </strong>
-                    Laptop / Smart Devices, Internet connection
-                  </p>
-                </div>
-                <div className="mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Start Today
-                  </a>
+          {/* Plans */}
+          <div className="row no-gutters justify-content-center">
+            {trainingPackages.map((rec, idx) => (
+              <div
+                key={idx}
+                className="col-md-6 col-sm-12 col-lg-4 col-12 wow fadeInLeftSm"
+                data-wow-delay="0.7s"
+              >
+                <div
+                  className="pricing-section"
+                  style={{
+                    backgroundColor: rec?.bg_color,
+                    marginTop: "50px",
+                    minHeight: "380px",
+                  }}
+                >
+                  <div className="pricing-section-price pb-0">
+                    <h4>{rec?.title}</h4>
+                    <h2>
+                      {idx != 0 && <sup>$</sup>}
+                      {rec?.cost}
+                    </h2>
+                  </div>
+                  <ul>
+                    <li>
+                      <b>Period: </b> {rec?.period}
+                    </li>
+                    <li>
+                      <b>Duration: </b>
+                      {rec?.duration}
+                    </li>
+                    <li>
+                      <b>Requirements: </b>
+                      {rec?.requirements}
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
-
-            {/* Professional Class */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card2">
-                <h5>Professional Class</h5>
-                <div className="testmonial-item-5-text mb-3">
-                  <p>
-                    <strong className="prop">Cost: </strong>
-                    <span style={{ fontSize: "24px" }}>$450</span>
-                  </p>
-                  <p>
-                    <strong className="prop">Period: </strong>One Week (1Wk,
-                    Every day) (2days)
-                  </p>
-                  <p>
-                    <strong className="prop">Duration: </strong>Two hours (2hrs)
-                  </p>
-                  <p>
-                    <strong className="prop">Requirement: </strong>
-                    Live Trading Account, Laptop / Smart Devices, Internet
-                    connection, Minimum balance of $500
-                  </p>
-                </div>
-                <div className="mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Start Today
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Master Class */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card2">
-                <h5>Master Class</h5>
-                <div className="testmonial-item-5-text mb-3">
-                  <p>
-                    <strong className="prop">Cost: </strong>
-                    <span style={{ fontSize: "24px" }}>$550</span>
-                  </p>
-                  <p>
-                    <strong className="prop">Period: </strong>One Week (1Wk,
-                    Every day) (2days)
-                  </p>
-                  <p>
-                    <strong className="prop">Duration: </strong>Two hours (2hrs)
-                  </p>
-                  <p>
-                    <strong className="prop">Requirement: </strong>
-                    Trading Account, Laptop / Smart Devices, Internet
-                    connection, Minimum balance of $500
-                  </p>
-                </div>
-                <div className="mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Start Today
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Binary Class */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="testmonial-item-5 test-card2">
-                <h5>Binary Class</h5>
-                <div className="testmonial-item-5-text mb-3">
-                  <p>
-                    <strong className="prop">Cost: </strong>
-                    <span style={{ fontSize: "24px" }}>$600</span>
-                  </p>
-                  <p>
-                    <strong className="prop">Period: </strong>One Week (1Wk,
-                    Every day) (2days)
-                  </p>
-                  <p>
-                    <strong className="prop">Duration: </strong>Two hours (2hrs)
-                  </p>
-                  <p>
-                    <strong className="prop">Requirement: </strong>
-                    Trading Account, Laptop / Smart Devices, Internet
-                    connection, Minimum balance of $250
-                  </p>
-                </div>
-                <div className="mt-20">
-                  <a href="#" className="button-primary button-md">
-                    Start Today
-                  </a>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -205,7 +86,10 @@ const forexTraining = () => {
               <div className="row">
                 {WhyTrain.map((rec, idx) => (
                   <div key={idx} className="col-xs-12 col-md-6 mt-2">
-                    <div className="contact-icon-box callback-block p-5 why-train-card">
+                    <div
+                      className="contact-icon-box callback-block p-5 why-train-card"
+                      style={{ backgroundColor: rec?.bg_color }}
+                    >
                       <div className="testmonial-box-icon numb">{idx + 1}</div>
                       <div className="testmonial-box-content">
                         <h3>{rec?.title}</h3>

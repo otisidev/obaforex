@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Beginner Class",
+    "cost": "Free",
+    "period": "Two Days (2days)",
+    "duration": "Two hours (2hrs)",
+    "requirements": "Laptop / Smart Devices, Internet connection",
+    "bg_color": "#f9dce2"
+  },
+  {
+    "title": "Intermediate Class",
+    "cost": "250",
+    "period": "One Month (1Mnth, 3 times a week) (2days)",
+    "duration": "Two hours (2hrs)",
+    "requirements": "Laptop / Smart Devices, Internet connection",
+    "bg_color": "azure"
+  },
+  {
+    "title": "Professional Class",
+    "cost": "450",
+    "period": "One Week (1Wk, Every day) (2days)",
+    "duration": "Two hours (2hrs)",
+    "requirements": "Live Trading Account, Laptop / Smart Devices, Internet connection, Minimum balance of $500",
+    "bg_color": "#e4f0e4"
+  },
+  {
+    "title": "Master Class",
+    "cost": "550",
+    "period": "One Week (1Wk, Every day) (2days)",
+    "duration": "Two hours (2hrs)",
+    "requirements": "Trading Account, Laptop / Smart Devices, Internet connection, Minimum balance of $500",
+    "bg_color": "beige"
+  },
+  {
+    "title": "Binary Class",
+    "cost": "600",
+    "period": "One Week (1Wk, Every day) (2days)",
+    "duration": "Two hours (2hrs)",
+    "requirements": "Trading Account, Laptop / Smart Devices, Internet connection, Minimum balance of $500",
+    "bg_color": "aliceblue"
+  }
+]
