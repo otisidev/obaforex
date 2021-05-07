@@ -1,18 +1,22 @@
 [
   {
     "title": "Select from our Forex Signals Packages",
-    "desc": "Whether you’re a beginner trader or you have been trading a little while, our package options cater to all levels of traders."
+    "desc": "Whether you’re a beginner trader or you have been trading a little while, our package options cater to all levels of traders.",
+    "bg_color": "#ff000012"
   },
   {
     "title": "Complete your selection purchase",
-    "desc": "Using our secure payment options, simply proceed with Payment. We accept Banks Transfer, Bank Deposit, BTC, Perfect Money etc."
+    "desc": "Using our secure payment options, simply proceed with Payment. We accept Banks Transfer, Bank Deposit, BTC, Perfect Money etc.",
+    "bg_color": "#00800021"
   },
   {
     "title": "Check your welcome email",
-    "desc": "Once we receive your payment, you will immediately receive our welcome email. Reply to our email request, then you are ready to go."
+    "desc": "Once we receive your payment, you will immediately receive our welcome email. Reply to our email request, then you are ready to go.",
+    "bg_color": "#ffa5002b"
   },
   {
     "title": "Open a Forex Account with a Regulated Broker",
-    "desc": "Open a Forex Account from our recommended brokers on our website. Or use your own broker. Our signals work on any Forex platform."
+    "desc": "Open a Forex Account from our recommended brokers on our website. Or use your own broker. Our signals work on any Forex platform.",
+    "bg_color": "aliceblue"
   }
 ]

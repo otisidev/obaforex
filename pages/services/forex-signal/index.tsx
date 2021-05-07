@@ -76,24 +76,40 @@ const forexSignal = () => {
                     <div className="col-sm-6 col-md-6">
                       <ul className="primary-list mt-20">
                         <li>
-                          <i className="fas fa-check-circle"></i>BUY USD CAD @
-                          1.30742 FINAL TP 1.31293
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            BUY USD CAD @ 1.30742 FINAL TP 1.31293
+                          </div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>BUY CHF/JPY @
-                          538.93 FINAL TP 600.84
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            BUY CHF/JPY @ 538.93 FINAL TP 600.84
+                          </div>
                         </li>
                       </ul>
                     </div>
                     <div className="col-sm-6 col-md-6">
                       <ul className="primary-list mt-20">
                         <li>
-                          <i className="fas fa-check-circle"></i>BUY AUD/USD @
-                          8550.05 FINAL TP 9107.26
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            BUY AUD/USD @ 8550.05 FINAL TP 9107.26
+                          </div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>SELL EURUSD @
-                          1.22701 FINAL TP 1.22241
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            SELL EURUSD @ 1.22701 FINAL TP 1.22241
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -217,7 +233,10 @@ const forexSignal = () => {
               <div className="row">
                 {signalService.map((rec, idx) => (
                   <div key={idx} className="col-xs-12 col-md-6 mt-2">
-                    <div className="contact-icon-box callback-block p-5 why-train-card">
+                    <div
+                      className="contact-icon-box callback-block p-5 why-train-card"
+                      style={{ backgroundColor: rec?.bg_color }}
+                    >
                       <div className="testmonial-box-icon numb">{idx + 1}</div>
                       <div className="testmonial-box-content">
                         <h3>{rec?.title}</h3>
