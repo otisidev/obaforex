@@ -66,7 +66,41 @@ const fundManagement = () => {
               <div className="row">
                 {fundMangementPlan.map((plan, idx) => (
                   <div key={idx} className="col-xs-12 col-md-6 col-lg-6">
-                    <div className="testmonial-item-5 test-card2">
+                    <div
+                      className="pricing-section shadow-primary"
+                      style={{
+                        backgroundColor: plan?.bg_color,
+                        marginTop: "30px",
+                        minHeight: "380px",
+                      }}
+                    >
+                      <div className="pricing-section-price pb-0">
+                        <h4>{plan?.name}</h4>
+                        <h2>
+                          {idx != 0 && <sup>$</sup>}
+                          {plan?.amount}
+                        </h2>
+                      </div>
+                      <ul>
+                        <li>
+                          <b>Returns: </b> {plan?.returns}
+                        </li>
+                        <li>
+                          <b>Risk: </b>
+                          {plan?.risk}
+                        </li>
+                        <li>
+                          <b>Profit Sharing: </b>
+                          {plan?.profitSharing}
+                        </li>
+                        <li>
+                          <b>Withdrawal: </b>
+                          {plan?.withdrawal}
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* <div className="testmonial-item-5 test-card2">
                       <h4>{plan?.name}</h4>
                       <div className="pricing-section-price">
                         <h3>
@@ -92,7 +126,7 @@ const fundManagement = () => {
                           {plan?.withdrawal}
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 ))}
               </div>
@@ -254,7 +288,7 @@ const fundManagement = () => {
       </div>
 
       {/* Get Reliable Signals from Us */}
-      <Signal bgColor="bg-white" />
+      <Signal />
     </Layout>
   );
 };

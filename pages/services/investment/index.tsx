@@ -53,7 +53,10 @@ const Investment = () => {
             <div className="row">
               {packages.map((rec, idx) => (
                 <div key={idx} className="col-xs-12 col-md-6 mt-2">
-                  <div className="contact-icon-box callback-block p-5">
+                  <div
+                    className="contact-icon-box callback-block p-5"
+                    style={{ backgroundColor: rec?.bg_color }}
+                  >
                     <div className="testmonial-box-icon numb">{idx + 1}</div>
                     <div className="testmonial-box-content text-left">
                       <h3>{rec?.title}</h3>
@@ -68,7 +71,7 @@ const Investment = () => {
       </div>
 
       {/* Get Reliable Signals from Us */}
-      <Signal />
+      <Signal bgColor="bg-white" />
     </Layout>
   );
 };

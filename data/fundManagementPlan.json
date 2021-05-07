@@ -5,7 +5,8 @@
     "returns": "100% Returns monthly",
     "risk": "10% maximum draw down (Risk Exposure)",
     "profitSharing": "50 - 50",
-    "withdrawal": " Instant withdrawal"
+    "withdrawal": " Instant withdrawal",
+    "bg_color": ""
   },
   {
     "name": "Gold Plan",
@@ -13,7 +14,8 @@
     "returns": "100% Returns monthly",
     "risk": "10% maximum draw down (Risk Exposure)",
     "profitSharing": "50 - 50",
-    "withdrawal": " Instant withdrawal"
+    "withdrawal": " Instant withdrawal",
+    "bg_color": ""
   },
   {
     "name": "Diamond Plan",
@@ -21,7 +23,8 @@
     "returns": "100% Returns - Quarterly(3 Months)",
     "risk": "10% maximum draw down (Risk Exposure)",
     "profitSharing": "40 - 60",
-    "withdrawal": " Instant withdrawal"
+    "withdrawal": " Instant withdrawal",
+    "bg_color": ""
   },
   {
     "name": "Platinum Plan",
@@ -29,6 +32,7 @@
     "returns": "100% Returns - Quarterly(3 Months)",
     "risk": "20% maximum draw down (Risk Exposure)",
     "profitSharing": "60 - 40",
-    "withdrawal": " Instant withdrawal"
+    "withdrawal": " Instant withdrawal",
+    "bg_color": ""
   }
 ]

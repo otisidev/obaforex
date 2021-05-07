@@ -29,7 +29,7 @@ const forexTraining = () => {
           </div>
 
           {/* Plans */}
-          <div className="row no-gutters justify-content-center">
+          <div className="row justify-content-center">
             {trainingPackages.map((rec, idx) => (
               <div
                 key={idx}
@@ -37,11 +37,11 @@ const forexTraining = () => {
                 data-wow-delay="0.7s"
               >
                 <div
-                  className="pricing-section"
+                  className="pricing-section shadow-primary"
                   style={{
                     backgroundColor: rec?.bg_color,
                     marginTop: "50px",
-                    minHeight: "380px",
+                    minHeight: "400px",
                   }}
                 >
                   <div className="pricing-section-price pb-0">

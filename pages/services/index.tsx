@@ -59,7 +59,7 @@ const Services = () => {
 
       {/* What We Do */}
       <div className="section-backdrop">
-        <div id="overlay-clr">
+        <div className="overlay-clr">
           <div className="container py-5">
             {/* Title and Desc. */}
             <div className="section-heading text-center mb-5">

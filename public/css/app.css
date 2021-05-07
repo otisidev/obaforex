@@ -329,7 +329,7 @@ a:hover {
   background-image: url("/img/backdrop.jpg") !important;
 }
 
-#overlay-clr {
+.overlay-clr {
   background-color: #070921db !important;
 }
 
