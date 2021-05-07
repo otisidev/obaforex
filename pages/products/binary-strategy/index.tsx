@@ -48,22 +48,34 @@ const BinaryStrategy = () => {
                     <div className="col-sm-6 col-md-6">
                       <ul className="primary-list mt-20">
                         <li>
-                          <i className="fas fa-check-circle"></i>Perfect Entry
-                          and Exist Point
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">
+                            Perfect Entry and Exist Point
+                          </div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>VL25, VL75
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">VL25, VL75</div>
                         </li>
                       </ul>
                     </div>
                     <div className="col-sm-6 col-md-6">
                       <ul className="primary-list mt-20">
                         <li>
-                          <i className="fas fa-check-circle"></i>5min TimeFrame
-                          only
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">5min TimeFrame only</div>
                         </li>
                         <li>
-                          <i className="fas fa-check-circle"></i>Risk management
+                          <div className="icon-sm">
+                            <i className="fas fa-check-circle"></i>
+                          </div>
+                          <div className="icon-text">Risk management</div>
                         </li>
                       </ul>
                     </div>

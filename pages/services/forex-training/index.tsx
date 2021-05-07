@@ -67,6 +67,18 @@ const forexTraining = () => {
                 </div>
               </div>
             ))}
+
+            {/* Join A Class Now */}
+            <div className="col-12 text-center">
+              <br />
+              <a
+                href="#"
+                className="button-md button-primary"
+                style={{ zIndex: 1, marginTop: "30px" }}
+              >
+                Join A Class Now
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -99,6 +111,18 @@ const forexTraining = () => {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Join A Class Now */}
+            <div className="col-12 text-center">
+              <br />
+              <a
+                href="#"
+                className="button-md button-primary"
+                style={{ zIndex: 1, marginTop: "30px" }}
+              >
+                Join A Class Now
+              </a>
             </div>
           </div>
         </div>
