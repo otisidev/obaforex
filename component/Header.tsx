@@ -33,7 +33,7 @@ export const Header = () => {
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="/services">Services</a>
               <ul className="nav-dropdown">
                 <li>
                   <a href="/services/forex-training">Forex Training</a>

@@ -1,14 +1,14 @@
 export const Top = () => {
   return (
     <>
-      <div id="preloader">
+      {/* <div id="preloader">
         <div className="lds-ellipsis">
           <div></div>
           <div></div>
           <div></div>
           <div></div>
         </div>
-      </div>
+      </div> */}
       <div
         id="top-bar"
         className="hidden-md-down bg-secondary"
@@ -16,7 +16,7 @@ export const Top = () => {
       >
         <div className="bg-secondary">
           <div className="row">
-            <div className="col-md-9 col-12 bg-secondary">
+            <div className="col-md-9 col-12 bg-primary">
               <ul className="top-bar-info">
                 <li>
                   <i className="fas fa-clock"></i>Open Hours: Mon - Fri, 8:00AM
