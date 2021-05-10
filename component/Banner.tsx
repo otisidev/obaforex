@@ -6,7 +6,14 @@ export const Banner = ({ page }) => {
       data-speed="0.6"
     >
       <img
+        id="banner-sm"
         src="/img/banner-mobile.png"
+        alt=""
+        style={{ height: "300px", width: "100%" }}
+      />
+      <img
+        id="banner-lg"
+        src="/img/banner.png"
         alt=""
         style={{ height: "300px", width: "100%" }}
       />
