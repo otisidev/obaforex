@@ -1807,7 +1807,7 @@ a:hover {
 } /*-----------------------------------------8. Breadcrumbs-------------------------------------------*/
 .breadcrumb-section {
   position: relative;
-  background-image: url("/img/banner-main.png");
+  background-image: url("/img/banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

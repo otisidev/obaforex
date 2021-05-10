@@ -42,7 +42,7 @@ const Contact = () => {
                     <input type="text" name="name" placeholder="First Name*" />
                   </div>
                   <div className="col-sm-6 col-12">
-                    <input type="text" name="name" placeholder="Lasts Name*" />
+                    <input type="text" name="name" placeholder="Last Name*" />
                   </div>
                   <div className="col-12">
                     <textarea placeholder="Your Message*"></textarea>
@@ -68,11 +68,12 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
+
                 {/* Call / Text */}
                 <div className="col-xs-12 col-md-6 col-lg-4">
                   <div
                     className="testmonial-item-5 test-card2"
-                    style={{ minHeight: "260px" }}
+                    style={{ minHeight: "260px", background: "aliceblue" }}
                   >
                     <h5>
                       <i className="fa fa-phone contact-icon"></i>Call / Text
@@ -102,7 +103,7 @@ const Contact = () => {
                 <div className="col-xs-12 col-md-6 col-lg-4">
                   <div
                     className="testmonial-item-5 test-card2"
-                    style={{ minHeight: "260px" }}
+                    style={{ minHeight: "260px", background: "aliceblue" }}
                   >
                     <h5>
                       <i className="fa fa-envelope-open contact-icon"></i>Email
@@ -134,7 +135,7 @@ const Contact = () => {
                 <div className="col-xs-12 col-md-6 col-lg-4">
                   <div
                     className="testmonial-item-5 test-card2"
-                    style={{ minHeight: "260px" }}
+                    style={{ minHeight: "260px", background: "aliceblue" }}
                   >
                     <h5>
                       <i className="fab fa-whatsapp contact-icon"></i>Chat

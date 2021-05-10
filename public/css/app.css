@@ -103,7 +103,7 @@ a:hover {
 }
 
 .breadcrumb-section {
-  background-image: url("/img/banner.png") !important;
+  background: url("/img/banner.png") !important;
 }
 
 .numb-sm {
@@ -348,6 +348,11 @@ a:hover {
 .service-box:hover {
   background: #c52b2b38 !important;
   transition: all 0.2s ease-in !important;
+}
+
+.breadcrumb-section {
+  /* background-size: auto 100% !important; */
+  background-size: contain !important;
 }
 
 @media screen and (max-width: 766px) {
