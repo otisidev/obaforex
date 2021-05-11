@@ -361,6 +361,12 @@ a:hover {
   display: none !important;
 }
 
+.slider-desc {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  color: white !important;
+}
+
 @media screen and (max-width: 766px) {
   .section-heading h3 {
     color: #122a69 !important;
@@ -394,3 +400,9 @@ a:hover {
     display: block !important;
   }
 }
+
+/* @media screen and (max-width: 1190px) {
+  .btn-slider2 {
+    margin: 130px 0 0 0 !important;
+  }
+} */

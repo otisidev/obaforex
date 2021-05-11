@@ -84,12 +84,13 @@ export const Slider = () => {
                   ))}
                 </div>
 
+                {/* Slider button one */}
                 <div
-                  className="tp-caption rev-btn tp-resizeme slider-btn button-primary"
+                  className="tp-caption rev-btn tp-resizeme button-primary"
                   style={{ marginTop: "120px" }}
                   id="slide-1081-layer-130"
                   data-x="['left','left','center','center']"
-                  data-hoffset="['0','0','0','0']"
+                  data-hoffset="['0','0','-100','0']"
                   data-y="['middle','middle','middle','middle']"
                   data-voffset="['100','100','100','30']"
                   data-fontsize="['15','15','15','15']"
@@ -120,13 +121,15 @@ export const Slider = () => {
                     </a>
                   </div>
                 </div>
+
+                {/* Slider button two */}
                 {rec?.btn_text2 && (
                   <div
-                    className="tp-caption rev-btn tp-resizeme slider-btn button-primary"
+                    className="tp-caption rev-btn tp-resizeme button-primary"
                     style={{ marginTop: "120px" }}
                     id="slide-1081-layer-130"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','210','0','0']"
+                    data-hoffset="['0','210','110','0']"
                     data-y="['middle','middle','middle','middle']"
                     data-voffset="['100','100','100','30']"
                     data-fontsize="['15','15','15','15']"
@@ -147,15 +150,13 @@ export const Slider = () => {
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
                   >
-                    <div>
-                      <a
-                        href={rec?.url2}
-                        style={{ display: "block" }}
-                        className="btn-slider2"
-                      >
-                        {rec?.btn_text2}
-                      </a>
-                    </div>
+                    <a
+                      href={rec?.url2}
+                      style={{ display: "block" }}
+                      className="btn-slider2"
+                    >
+                      {rec?.btn_text2}
+                    </a>
                   </div>
                 )}
               </li>
