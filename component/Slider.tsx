@@ -90,7 +90,7 @@ export const Slider = () => {
                   style={{ marginTop: "120px" }}
                   id="slide-1081-layer-130"
                   data-x="['left','left','center','center']"
-                  data-hoffset="['0','0','-100','0']"
+                  data-hoffset="['0','0','-220','0']"
                   data-y="['middle','middle','middle','middle']"
                   data-voffset="['100','100','100','30']"
                   data-fontsize="['15','15','15','15']"
@@ -129,13 +129,12 @@ export const Slider = () => {
                     style={{ marginTop: "120px" }}
                     id="slide-1081-layer-130"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','210','110','0']"
+                    data-hoffset="['0','210','120','0']"
                     data-y="['middle','middle','middle','middle']"
                     data-voffset="['100','100','100','30']"
                     data-fontsize="['15','15','15','15']"
-                    data-fontweight="400"
                     data-lineheight="['50','50','50','50']"
-                    data-width="['200','200','200','200']"
+                    // data-width="['200','200','200','200']"
                     data-height="none"
                     data-whitespace="nowrap"
                     data-start="1500"
@@ -152,7 +151,7 @@ export const Slider = () => {
                   >
                     <a
                       href={rec?.url2}
-                      style={{ display: "block" }}
+                      style={{ display: "block", padding: "0 10px" }}
                       className="btn-slider2"
                     >
                       {rec?.btn_text2}

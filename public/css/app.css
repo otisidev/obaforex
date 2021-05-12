@@ -401,8 +401,15 @@ a:hover {
   }
 }
 
-/* @media screen and (max-width: 1190px) {
-  .btn-slider2 {
-    margin: 130px 0 0 0 !important;
+@media screen and (max-width: 1190px) {
+  .btn-slider {
+    font-size: 14px !important;
+    padding: 5px 10px 0 10px !important;
+    width: 110px !important;
   }
-} */
+
+  .btn-slider2 {
+    font-size: 14px !important;
+    padding: 0 10px !important;
+  }
+}
