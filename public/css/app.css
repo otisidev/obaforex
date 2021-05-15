@@ -31,8 +31,7 @@ a:hover {
   color: crimson !important;
 }
 
-.contact-icon-box i,
-.primary-list li i {
+.contact-icon-box i {
   color: #122a69;
 }
 .service-block:hover .service-block-content-button i {

@@ -1,6 +1,6 @@
 [
   {
-    "img_path": "img/slider/slider1.png",
+    "img_path": "img/slider/welcome.jpg",
     "title": "Obaforex Global Trading Ltd",
     "desc": [
       "Welcome to Obaforex Global Trading Ltd, a global foreign currency ",
@@ -12,7 +12,7 @@
     "btn_text2": "Let's Chat"
   },
   {
-    "img_path": "img/slider/slider2.png",
+    "img_path": "img/slider/academy.jpg",
     "title": "Forex Training With Obaforex",
     "desc": [
       "Come get trained by experts on how to gain financial freedom",
@@ -24,16 +24,16 @@
     "btn_text2": "Have a Question?"
   },
   {
-    "img_path": "img/slider/slider3.png",
+    "img_path": "img/slider/accnt-mgt.jpg",
     "title": "Forex Account Management",
     "desc": ["We manage and grow your Forex Account for you"],
     "url1": "/services/fund-management",
     "btn_text1": "Register Here",
-    "url2": "",
-    "btn_text2": ""
+    "url2": "/services/forex-signal",
+    "btn_text2": "Get Signal"
   },
   {
-    "img_path": "img/slider/slider4.png",
+    "img_path": "img/slider/roi.jpg",
     "title": "25% ROI Monthly. Invest with Us Today",
     "desc": [
       "You are assured of 25% ROI of your Investment Capital for TWELVE MONTHS",
@@ -45,7 +45,7 @@
     "btn_text2": "Have a Question?"
   },
   {
-    "img_path": "img/slider/slider5.png",
+    "img_path": "img/slider/referer.jpg",
     "title": "Refer a Person and Win",
     "desc": [
       "Stand the change of winning great gifts in the company",
@@ -57,7 +57,7 @@
     "btn_text2": "Have a Question?"
   },
   {
-    "img_path": "img/slider/slider6.png",
+    "img_path": "img/slider/copy.jpg",
     "title": "Obaforex Reliable Copy Trade",
     "desc": [
       "Signup for our Copy trade and follow the King of trading himself"
