@@ -366,6 +366,10 @@ a:hover {
   color: white !important;
 }
 
+#top-bar {
+  z-index: 0 !important;
+}
+
 @media screen and (max-width: 766px) {
   .section-heading h3 {
     color: #122a69 !important;

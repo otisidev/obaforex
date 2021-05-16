@@ -1,12 +1,18 @@
 import { Banner } from "../../../component/Banner";
 import { Copy } from "../../../component/Copy";
 import { Layout } from "../../../component/Layout";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const CopyTrade = () => {
   return (
     <Layout title="Copy Trade">
       {/* Banner */}
       <Banner page="Copy Trade" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Choose, Follow, Monitor.Earn By Copying From Obaforex. */}
       <div className="section-block grey-bg">
