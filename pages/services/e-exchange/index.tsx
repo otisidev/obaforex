@@ -44,7 +44,7 @@ const EExchange = () => {
                     <div className="testmonial-box-icon numb">{idx + 1}</div>
                     <div className="testmonial-box-content">
                       <h3>{rec?.title}</h3>
-                      <p>{rec?.desc}</p>
+                      <p className="mt-0">{rec?.desc}</p>
                     </div>
                   </div>
                 </div>
