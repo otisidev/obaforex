@@ -5,6 +5,7 @@ import { Chill } from "../component/Chill";
 import chooseUs from "../data/chooseUs.json";
 import ourStrength from "../data/ourStrength.json";
 import testimonials from "../data/testimonials.json";
+import { TradeViewTop } from "../component/TradeViewTop";
 
 const Home = () => {
   return (
@@ -12,6 +13,11 @@ const Home = () => {
       <Layout title="Home">
         {/* Home Slider */}
         <Slider />
+
+        {/* Trade View */}
+        <div id="top-bar">
+          <TradeViewTop />
+        </div>
 
         {/* Welcome to Obaforex */}
         <div className="section-block-bg partners">

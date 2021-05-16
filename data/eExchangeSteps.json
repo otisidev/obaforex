@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Simple",
+    "desc": "All you need to do is click the buy e-currency or sell e-currency options",
+    "bg_color": "#ff000012"
+  },
+  {
+    "title": "Fast",
+    "desc": "Login and place your order accordingly. Proceed to make payment with the invoice generated",
+    "bg_color": "#00800021"
+  },
+  {
+    "title": "Safe and Secure",
+    "desc": "Upon verification of your payment which is in minutes, we fund your account instantly",
+    "bg_color": "#ffa5002b"
+  }
+]

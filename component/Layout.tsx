@@ -12,9 +12,9 @@ export const Layout = ({ children, title }) => {
       </Head>
 
       {/* Trade View Currency pair */}
-      <div id="top-bar">
+      {/* <div id="top-bar">
         <TradeViewTop />
-      </div>
+      </div> */}
 
       {/* Short contact info */}
       <Top />
