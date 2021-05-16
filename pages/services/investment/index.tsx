@@ -2,12 +2,18 @@ import { Banner } from "../../../component/Banner";
 import { Layout } from "../../../component/Layout";
 import { Signal } from "../../../component/Signal";
 import packages from "../../../data/investmentPackages.json";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const Investment = () => {
   return (
     <Layout title="Investment">
       {/* Banner */}
       <Banner page="Investment" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Invest And Earn */}
       <div className="section-block grey-bg background-shape-3 border-bottom">

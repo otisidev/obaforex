@@ -1,12 +1,18 @@
 import { Banner } from "../../../component/Banner";
 import { Layout } from "../../../component/Layout";
 import eExchange from "../../../data/eExchangeSteps.json";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const EExchange = () => {
   return (
     <Layout title="E-Exchange">
       {/* Banner */}
       <Banner page="E-Exchange" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Buy And Sell E-Currencies */}
       <div className="section-block grey-bg background-shape-3 border-bottom">

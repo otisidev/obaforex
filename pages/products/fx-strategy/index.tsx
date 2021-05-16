@@ -3,6 +3,7 @@ import { Chill } from "../../../component/Chill";
 import { Layout } from "../../../component/Layout";
 import strategyInfo from "../../../data/strategyInfo.json";
 import { useRouter } from "next/router";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const ForexStrategy = () => {
   const router = useRouter();
@@ -10,6 +11,11 @@ const ForexStrategy = () => {
     <Layout title="Forex Strategy">
       {/* Banner */}
       <Banner page="Forex Strategy" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Obaforex Best Strategy Shop */}
       <div className="section-block grey-bg background-shape-3 border-bottom">

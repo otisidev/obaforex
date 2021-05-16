@@ -2,12 +2,18 @@ import { Banner } from "../../component/Banner";
 import { Layout } from "../../component/Layout";
 import { Chill } from "../../component/Chill";
 import faq from "../../data/faq.json";
+import { TradeViewTop } from "../../component/TradeViewTop";
 
 const FAQ = () => {
   return (
     <Layout title="FAQ">
       {/* Banner */}
       <Banner page="FAQ" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Do You Have Any Questions? */}
       <div className="section-block grey-bg background-shape-3 border-bottom">

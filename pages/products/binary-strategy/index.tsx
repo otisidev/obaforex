@@ -1,12 +1,18 @@
 import { Banner } from "../../../component/Banner";
 import { Copy } from "../../../component/Copy";
 import { Layout } from "../../../component/Layout";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const BinaryStrategy = () => {
   return (
     <Layout title="Binary Strategy">
       {/* Banner */}
       <Banner page="Binary Strategy" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Obaforex Best Binary Strategy */}
       <div

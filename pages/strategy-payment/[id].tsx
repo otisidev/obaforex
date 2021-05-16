@@ -3,6 +3,7 @@ import { Banner } from "../../component/Banner";
 import { Chill } from "../../component/Chill";
 import { Layout } from "../../component/Layout";
 import StrategyInfo from "../../data/strategyInfo.json";
+import { TradeViewTop } from "../../component/TradeViewTop";
 
 const StrategyPayment = ({ id }) => {
   const stInfo = StrategyInfo.find((info) => info.id == id);
@@ -13,6 +14,11 @@ const StrategyPayment = ({ id }) => {
     <Layout title="Strategy Payment">
       {/* Banner */}
       <Banner page="Forex Strategy" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Complete Your Strategy Payment */}
       <div className="section-block grey-bg background-shape-3 border-bottom">

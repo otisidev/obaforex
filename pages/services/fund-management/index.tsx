@@ -3,12 +3,18 @@ import { Layout } from "../../../component/Layout";
 import { Signal } from "../../../component/Signal";
 import fundMangementPlan from "../../../data/fundManagementPlan.json";
 import partners from "../../../data/partners.json";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const fundManagement = () => {
   return (
     <Layout title="Fund Management">
       {/* Banner */}
       <Banner page="Fund Management" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Lets Help You Manage Your Forex Account */}
       <div className="section-block grey-bg background-shape-3 border-bottom">

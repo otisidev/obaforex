@@ -1,11 +1,17 @@
 import { Banner } from "../../component/Banner";
 import { Layout } from "../../component/Layout";
+import { TradeViewTop } from "../../component/TradeViewTop";
 
 const Contact = () => {
   return (
     <Layout title="Contact Us">
       {/* Banner */}
       <Banner page="Contact us" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       <div className="section-block grey-bg">
         <div className="background-shape bs-right"></div>

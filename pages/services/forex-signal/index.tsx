@@ -2,12 +2,18 @@ import { Banner } from "../../../component/Banner";
 import { FundManager } from "../../../component/FundManager";
 import { Layout } from "../../../component/Layout";
 import signalService from "../../../data/signalService.json";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const forexSignal = () => {
   return (
     <Layout title="Forex Signal">
       {/* Banner */}
       <Banner page="Forex Signal" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* We Provide forex signals */}
       <div className="section-block grey-bg">

@@ -6,12 +6,18 @@ import { Team } from "../../component/Team";
 import moreAboutUs from "../../data/moreAboutUs.json";
 import trade_history from "../../data/tradeHistory.json";
 import how_it_works from "../../data/howItWorks.json";
+import { TradeViewTop } from "../../component/TradeViewTop";
 
 const About = () => {
   return (
     <Layout title="About Us">
       {/* Banner */}
       <Banner page="About Us" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* We Trade. We Manage. We Train. We Signal */}
       <div className="section-block">

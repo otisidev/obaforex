@@ -3,12 +3,18 @@ import { JoinUs } from "../../../component/JoinUs";
 import { Layout } from "../../../component/Layout";
 import WhyTrain from "../../../data/whyTrain.json";
 import trainingPackages from "../../../data/trainingPackages.json";
+import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const forexTraining = () => {
   return (
     <Layout title="Forex Training">
       {/* Banner */}
       <Banner page="Forex Training" />
+
+      {/* Trade View */}
+      <div id="top-bar">
+        <TradeViewTop />
+      </div>
 
       {/* Obaforex Academy */}
       <div className="section-block grey-bg background-shape-3 border-bottom">
