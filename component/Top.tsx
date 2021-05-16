@@ -10,8 +10,7 @@ export const Top = () => {
         </div>
       </div> */}
       <div
-        id="top-bar"
-        className="hidden-md-down bg-secondary"
+        className="hidden-md-down bg-secondary top-bar"
         style={{ border: "none", padding: "none" }}
       >
         <div className="bg-secondary">

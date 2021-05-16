@@ -24,11 +24,13 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-12 d-none d-md-block">
-              <img
-                src="/img/about/about-img.png"
-                className="rounded-border shadow-primary"
-                alt=""
-              />
+              <div className="shadow-primary p-3">
+                <img
+                  src="/img/about/about-img.png"
+                  className="rounded-border"
+                  alt=""
+                />
+              </div>
             </div>
             <div className="col-md-6 col-12">
               <div className="pl-30-md">
@@ -109,58 +111,6 @@ const About = () => {
       <Team />
 
       {/* We are here for you */}
-      {/* <div className="section-block section-sm border-bottom partners">
-        <div className="container">
-          <div className="section-heading text-center mb-5">
-            <h3 className="semi-bold">We Are Here For You</h3>
-            <div className="section-heading-line"></div>
-            <p>Here Are Few More Things About Us</p>
-          </div>
-          <div
-            className="owl-carousel owl-theme customizable-carousel mt-40"
-            data-loop="true"
-            data-items="1"
-            data-md-items="1"
-            data-sm-items="1"
-            data-xs-items="1"
-            data-space="15"
-            data-autoplay="false"
-            data-autospeed="3500"
-            data-nav-dots="true"
-            data-nav-arrows="true"
-          >
-            {moreAboutUs.map((rec, idx) => (
-              <div key={idx} className="item">
-                <div className="row">
-                  <div className="col-md-6 col-12">
-                    <img
-                      src={rec?.img_path}
-                      className="rounded-border"
-                      alt=""
-                    />
-                  </div>
-                  <div className="col-md-6 col-12">
-                    <div className="pl-30-md">
-                      <div className="section-heading text-left mt-5">
-                        <small className="text-scondary">{rec?.title_sm}</small>
-                        <h3 className="semi-bold font-size-32">{rec?.title}</h3>
-                        <div className="section-heading-line line-thin"></div>
-                        <div className="text-content">
-                          {rec?.body_text?.map((text, idx) => (
-                            <p key={idx}>{text}</p>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div> */}
-
-      {/* We are here for you */}
       <div className="section-block section-sm border-bottom partners">
         <div className="container">
           <div className="section-heading text-center mb-5">
@@ -197,11 +147,13 @@ const About = () => {
                   <div className="card-body card-body-primary mt-5 pt-5">
                     <div className="row">
                       <div className="col-md-6 col-12">
-                        <img
-                          src={rec?.img_path}
-                          className="rounded-border"
-                          alt=""
-                        />
+                        <div className="shadow-primary p-4">
+                          <img
+                            src={rec?.img_path}
+                            className="rounded-border"
+                            alt=""
+                          />
+                        </div>
                       </div>
                       <div className="col-md-6 col-12">
                         <div className="pl-30-md">

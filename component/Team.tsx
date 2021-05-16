@@ -21,15 +21,26 @@ export const Team = () => {
             data-autoplay="true"
             data-autospeed="4000"
             data-nav-dots="true"
-            data-nav-arrows="false"
+            data-nav-arrows="true"
           >
             {team.map((rec, idx) => (
               <div
+                className="team-box-3 mb-0"
                 key={idx}
-                className="team-box-3"
-                style={{ border: "2px solid lightgrey" }}
+                style={{
+                  padding: "10px",
+                  minHeight: "0",
+                  border: "1px solid lightgrey",
+                  borderRadius: "10px",
+                  boxShadow: "none",
+                }}
               >
-                <img src={rec?.img_path} alt="team" />
+                <img
+                  className="shadow-primary"
+                  src={rec?.img_path}
+                  alt="team"
+                  style={{ borderRadius: "10px" }}
+                />
                 <div className="team-box-3-info">
                   <h4>{rec?.name}</h4>
                   <span>{rec?.position}</span>

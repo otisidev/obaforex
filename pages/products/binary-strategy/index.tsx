@@ -23,11 +23,13 @@ const BinaryStrategy = () => {
           <div className="row">
             {/* Image Section */}
             <div className="col-md-6 col-12">
-              <img
-                src="/img/copy-trade.png"
-                className="rounded-border"
-                alt="footer_logo"
-              />
+              <div className="shadow-primary p-3">
+                <img
+                  src="/img/binary.png"
+                  className="rounded-border"
+                  alt="footer_logo"
+                />
+              </div>
             </div>
 
             {/* Text Section */}
