@@ -245,7 +245,8 @@ const Home = () => {
                 >
                   <iframe
                     height="415"
-                    src="https://www.youtube.com/watch?v=osnUQfGzqzU"
+                    src="https://www.youtube.com/embed/nrJtHemSPW4"
+                    // src="https://www.youtube.com/watch?v=osnUQfGzqzU"
                     className="full-width shadow-primary"
                   ></iframe>
                 </div>

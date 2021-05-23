@@ -86,15 +86,15 @@ export const Slider = () => {
 
               {/* Slider button one */}
               <div
-                className="tp-caption rev-btn tp-resizeme button-primary"
+                className="tp-caption rev-btn tp-resizeme slider-btn button-primary"
                 style={{ marginTop: "120px" }}
                 id="slide-1081-layer-130"
                 data-x="['left','left','center','center']"
-                data-hoffset="['0','0','-220','0']"
+                data-hoffset="['0','0','0','0']"
                 data-y="['middle','middle','middle','middle']"
                 data-voffset="['100','100','100','30']"
                 data-fontsize="['15','15','15','15']"
-                data-fontweight="400"
+                data-fontweight="600"
                 data-lineheight="['50','50','50','50']"
                 data-width="['200','200','200','200']"
                 data-height="none"
@@ -123,7 +123,7 @@ export const Slider = () => {
               </div>
 
               {/* Slider button two */}
-              {rec?.btn_text2 && (
+              {/* {rec?.btn_text2 && (
                 <div
                   className="tp-caption rev-btn tp-resizeme button-primary"
                   style={{ marginTop: "120px" }}
@@ -134,7 +134,6 @@ export const Slider = () => {
                   data-voffset="['100','100','100','30']"
                   data-fontsize="['15','15','15','15']"
                   data-lineheight="['50','50','50','50']"
-                  // data-width="['200','200','200','200']"
                   data-height="none"
                   data-whitespace="nowrap"
                   data-start="1500"
@@ -157,7 +156,7 @@ export const Slider = () => {
                     {rec?.btn_text2}
                   </a>
                 </div>
-              )}
+              )} */}
             </li>
           ))}
         </ul>
