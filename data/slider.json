@@ -66,5 +66,17 @@
     "btn_text1": "Follow The king",
     "url2": "/faq",
     "btn_text2": "Have a Question?"
+  },
+  {
+    "img_path": "img/slider/app.jpg",
+    "title": "Obaforex Web and Mobile App",
+    "desc": [
+      "Download Obaforex Android / IOS App which allows you",
+      "access to everything you need."
+    ],
+    "url1": "",
+    "btn_text1": "Join Us Now",
+    "url2": "/faq",
+    "btn_text2": "Have a Question?"
   }
 ]
