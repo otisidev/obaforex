@@ -110,7 +110,7 @@ export const Footer = () => {
                 <form className="footer-subscribe-form mt-25">
                   <div className="d-table full-width">
                     <div className="d-table-cell">
-                      <input type="text" placeholder="Your Email adress" />
+                      <input type="text" placeholder="Your Email address" />
                     </div>
                     <div className="d-table-cell">
                       <button type="submit">
