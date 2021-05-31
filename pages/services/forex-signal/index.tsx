@@ -42,7 +42,7 @@ const forexSignal = () => {
           <div className="row">
             {/* Image Section */}
             <div className="col-md-6 col-12">
-              <img src="/img/signal2.png" className="rounded-border" alt="" />
+              <img src="/img/signal.png" className="rounded-border" alt="" />
             </div>
 
             {/* Text Section */}
