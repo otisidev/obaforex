@@ -1,8 +1,13 @@
 [
   {
-    "title": "Monthly Package: 25% ROI",
-    "desc": "Get 25% return on your Investment every month for a period of One year",
+    "title": "Monthly Package: 12.5% ROI",
+    "desc": "Get 12.5% return on your Investment every month for a period of One year",
     "bg_color": "#00800021"
+  },
+  {
+    "title": "Quarterly Package: 80% ROI",
+    "desc": "Get 80% return on your Investment every three months for a period of One year",
+    "bg_color": "#ffa5002b"
   },
   {
     "title": "Quarterly Package: 80% ROI",

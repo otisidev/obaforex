@@ -39,7 +39,7 @@ const Investment = () => {
                       </a>
                   </div>
                   {/* Our Investment packages are */}
-                  <div className="text-center">
+                  {/* <div className="text-center">
                       <strong style={{ display: "block", margin: "40px 0" }}>Our Investment Packages Are</strong>{" "}
                       <div className="row">
                           {packages.map((rec, idx) => (
@@ -54,7 +54,7 @@ const Investment = () => {
                               </div>
                           ))}
                       </div>
-                  </div>
+                  </div> */}
               </div>
           </div>
 
