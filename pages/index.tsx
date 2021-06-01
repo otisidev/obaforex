@@ -10,7 +10,7 @@ import { Testimonials } from "../component/Testimonials";
 const Home = () => {
   return (
     <>
-      <Layout title="Home">
+      <Layout title="Welcome to Obaforex Official Website">
         {/* Home Slider */}
         <Slider />
 
