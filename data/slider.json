@@ -1,9 +1,9 @@
 [
   {
     "img_path": "img/slider/welcome.jpg",
-    "title": "Obaforex Global Trading Ltd",
+    "title": "Obaforex Global Trading",
     "desc": [
-      "Welcome to Obaforex Global Trading Ltd, a global foreign currency ",
+      "Welcome to Obaforex Global Trading, a global foreign currency ",
       "and investment company tailored to meet your individual needs"
     ],
     "url1": "/services",
@@ -41,18 +41,6 @@
     ],
     "url1": "https://app.obaforex.com/auth/on-boarding/request",
     "btn_text1": "Register Now",
-    "url2": "/faq",
-    "btn_text2": "Have a Question?"
-  },
-  {
-    "img_path": "img/slider/referer.jpg",
-    "title": "Refer a Person and Win",
-    "desc": [
-      "Stand the chance of winning great gifts in the company",
-      " when you refer someone"
-    ],
-    "url1": "https://app.obaforex.com/auth/on-boarding/request",
-    "btn_text1": "Join Us",
     "url2": "/faq",
     "btn_text2": "Have a Question?"
   },

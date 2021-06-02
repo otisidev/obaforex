@@ -1,7 +1,7 @@
 import { Banner } from "../../../component/Banner";
 import { Layout } from "../../../component/Layout";
 import { Signal } from "../../../component/Signal";
-import packages from "../../../data/investmentPackages.json";
+// import packages from "../../../data/investmentPackages.json";
 import { TradeViewTop } from "../../../component/TradeViewTop";
 
 const Investment = () => {

@@ -1,66 +1,70 @@
 [
-  {
-    "title": "Is OBAFOREX GLOBAL TRADING a registered company?",
-    "desc": "Yes! OBAFOREX GLOBAL TRADING is duly registered with the CAC in Nigeria as OBAFOREX GLOBAL TRADING; with Registration Number: RC: 3005196. You can search the CAC website to confirm this claim. We are also registered with NDIC and the registration with SEC is still in progress."
-  },
-  {
-    "title": "How does OBAFOREX GLOBAL TRADING earn profits for its members?",
-    "desc": "OBAFOREX GLOBAL TRADING is formed to utilize advanced Real Estate, Foreign Currency and crypto currency trading Online."
-  },
-  {
-    "title": "How can I register a new account?",
-    "desc": "To register a new account, simply click the “SERVICES” button and then click on the service you would like us to serve you with and fill out the required information."
-  },
-  {
-    "title": "What is the minimum and maximum amount for investment?",
-    "desc": "The minimum amount one can invest is N100,000 (One hundred thousand naira only), while the maximum investment is 100,000,000 (One hundred million naira only) per investment, but you can make deposit higher than 100,000,000(One hundred million naira) by topping your investment."
-  },
-  {
-    "title": "What is the minimum and maximum amount for fund management?",
-    "desc": "The minimum fund you can have in your account for us to manage is $10,000(Ten thousand US Dollars), but you can make more deposit by topping your account."
-  },
-  {
-    "title": "Do I have to withdraw from my fund management account at the end of 30 days of trading activities?",
-    "desc": "Yes, you are in control of your capital, our job is to help you build your portfolio, it all depend on the signed contract period 1month or quarterly maximum and the trading conditions."
-  },
-  {
-    "title": "Can I withdraw my capital on Fund Management at anytime?",
-    "desc": "Yes, you are in control of your capital, our job is to help you build your portfolio, it also depends on the signed contract period, which is either monthly or quarterly, and the trading conditions."
-  },
-  {
-    "title": "Can I withdraw my capital on Fund Management at anytime?",
-    "desc": "You can only withdraw your capital after the investment has run for at least a period of three (3) months; you are always in control of your capital BUT in the event you decide to withdraw all your capital before the minimum stipulated duration as aforementioned, you will be liable to forfeit 25% of the capital sum which will serve as charge for breach of the contract and also we “MUST” be notified at least 48 hours before the withdrawal date."
-  },
-  {
-    "title": "Can I withdraw my capital on investment at anytime?",
-    "desc": "NO, you cannot withdraw your capital on investment. At Obaforex Global Trading, there is no Liquidation on investment at any point in time during the 12 months."
-  },
-  {
-    "title": "Can I Operate Multiple Investments?",
-    "desc": "At Obaforex Global Trading, multiple accounts are not allowed for the purpose of proper investment management and prevention of fraud."
-  },
-  {
-    "title": "What is average profit you make in a month?",
-    "desc": "There are months we make high profit and some months we make low profit. When the profit is high, we use that to compensate for the month when profit is low."
-  },
-  {
-    "title": "Where are your offices located?",
-    "desc": "Our corporate office is at No.233 Building Material along Bukuru Express Way, Jos, Plateau State, Nigeria. You can reach us online 24/7 via any of our social media platforms"
-  },
-  {
-    "title": "Is Obaforex a Ponzi Scheme",
-    "desc": "No! We are involved in actual trading of foreign currencies and crypto currencies on major exchanges; flipping of ICOs and taking advantage of short-term opportunities. A Ponzi scheme is unsustainable. In a Ponzi scheme, you are paid with another member’s money, and that member is also paid with yet another member’s money and the chain of disaster continues like that until it reaches a peak and everything collapses like a house card. OBAFOREX actively engages in productive activities that generates daily profits. Period!"
-  },
-  {
-    "title": "What else do you do in your company?",
-    "desc": "What we do here is not trading financial instruments alone; we train and mentor people on how to analyze the financial market and instruments to enable them understand their chart patterns and market with ease. We equally give out signals to our subscribers and engage in e-currency exchange."
-  },
-  {
-    "title": "What are the risk involved in the investment Platform?",
-    "desc": "At Obaforex Global Trading, your investment is guaranteed because we have adequate risk management with major national and international brokerage firms."
-  },
-  {
-    "title": "What are the available permanent modalities in Obaforex Global Trading?",
-    "desc": "At Obaforex Global Trading, your monthly or quarterly return on investment is paid directly to the investor’s personal or company bank account through direct bank deposits or through cheque."
-  }
+    {
+        "title": "How do I access my dashboard as an old client?",
+        "desc": "We at Obaforex care so much about our clients - old, new, and potential clients. For all investors who have registered before 1st of June 2021, you can access your dashboard (which is the version one of our web-app platform) using the link - v1.obaforex.com All other clients can go to app.obaforex.com to login or register."
+    },
+    {
+        "title": "Is OBAFOREX GLOBAL TRADING a registered company?",
+        "desc": "Yes! OBAFOREX GLOBAL TRADING is duly registered with the CAC in Nigeria as OBAFOREX GLOBAL TRADING; with Registration Number: RC: 3005196. You can search the CAC website to confirm this claim. We are also registered with NDIC and the registration with SEC is still in progress."
+    },
+    {
+        "title": "How does OBAFOREX GLOBAL TRADING earn profits for its members?",
+        "desc": "OBAFOREX GLOBAL TRADING is formed to utilize advanced Real Estate, Foreign Currency and crypto currency trading Online."
+    },
+    {
+        "title": "How can I register a new account?",
+        "desc": "To register a new account, simply click the “SERVICES” button and then click on the service you would like us to serve you with and fill out the required information."
+    },
+    {
+        "title": "What is the minimum and maximum amount for investment?",
+        "desc": "The minimum amount one can invest is N100,000 (One hundred thousand naira only), while the maximum investment is 100,000,000 (One hundred million naira only) per investment, but you can make deposit higher than 100,000,000(One hundred million naira) by topping your investment."
+    },
+    {
+        "title": "What is the minimum and maximum amount for fund management?",
+        "desc": "The minimum fund you can have in your account for us to manage is $10,000(Ten thousand US Dollars), but you can make more deposit by topping your account."
+    },
+    {
+        "title": "Do I have to withdraw from my fund management account at the end of 30 days of trading activities?",
+        "desc": "Yes, you are in control of your capital, our job is to help you build your portfolio, it all depend on the signed contract period 1month or quarterly maximum and the trading conditions."
+    },
+    {
+        "title": "Can I withdraw my capital on Fund Management at anytime?",
+        "desc": "Yes, you are in control of your capital, our job is to help you build your portfolio, it also depends on the signed contract period, which is either monthly or quarterly, and the trading conditions."
+    },
+    {
+        "title": "Can I withdraw my capital on Fund Management at anytime?",
+        "desc": "You can only withdraw your capital after the investment has run for at least a period of three (3) months; you are always in control of your capital BUT in the event you decide to withdraw all your capital before the minimum stipulated duration as aforementioned, you will be liable to forfeit 25% of the capital sum which will serve as charge for breach of the contract and also we “MUST” be notified at least 48 hours before the withdrawal date."
+    },
+    {
+        "title": "Can I withdraw my capital on investment at anytime?",
+        "desc": "NO, you cannot withdraw your capital on investment. At Obaforex Global Trading, there is no Liquidation on investment at any point in time during the 12 months."
+    },
+    {
+        "title": "Can I Operate Multiple Investments?",
+        "desc": "At Obaforex Global Trading, multiple accounts are not allowed for the purpose of proper investment management and prevention of fraud."
+    },
+    {
+        "title": "What is average profit you make in a month?",
+        "desc": "There are months we make high profit and some months we make low profit. When the profit is high, we use that to compensate for the month when profit is low."
+    },
+    {
+        "title": "Where are your offices located?",
+        "desc": "Our corporate office is at No.233 Building Material along Bukuru Express Way, Jos, Plateau State, Nigeria. You can reach us online 24/7 via any of our social media platforms"
+    },
+    {
+        "title": "Is Obaforex a Ponzi Scheme",
+        "desc": "No! We are involved in actual trading of foreign currencies and crypto currencies on major exchanges; flipping of ICOs and taking advantage of short-term opportunities. A Ponzi scheme is unsustainable. In a Ponzi scheme, you are paid with another member’s money, and that member is also paid with yet another member’s money and the chain of disaster continues like that until it reaches a peak and everything collapses like a house card. OBAFOREX actively engages in productive activities that generates daily profits. Period!"
+    },
+    {
+        "title": "What else do you do in your company?",
+        "desc": "What we do here is not trading financial instruments alone; we train and mentor people on how to analyze the financial market and instruments to enable them understand their chart patterns and market with ease. We equally give out signals to our subscribers and engage in e-currency exchange."
+    },
+    {
+        "title": "What are the risk involved in the investment Platform?",
+        "desc": "At Obaforex Global Trading, your investment is guaranteed because we have adequate risk management with major national and international brokerage firms."
+    },
+    {
+        "title": "What are the available permanent modalities in Obaforex Global Trading?",
+        "desc": "At Obaforex Global Trading, your monthly or quarterly return on investment is paid directly to the investor’s personal or company bank account through direct bank deposits or through cheque."
+    }
 ]
