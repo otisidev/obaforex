@@ -20,7 +20,7 @@
     {
         "name": "Berfam Capital",
         "logo_path": "/img/partners/berfam-capital.png",
-        "sign_up": "http://bo.berrymarkets.com/client/register/5dc99eaf79739",
-        "login": "http://bo.berrymarkets.com/login"
+        "sign_up": "https://partnership.berfammarkets.com/homepage?PANDA_PARTNER=1006&PID=1&cws=https://www.berfammarkets.com?PANDA_PARTNER=1006&PID=1",
+        "login": "https://www.berfammarkets.com/"
     }
 ]
